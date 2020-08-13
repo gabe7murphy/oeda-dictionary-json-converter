@@ -20,5 +20,5 @@ print (str(len(lines)))
 #strip the end of testactor.txt
 outputactorfilename = inputactorfilename.rsplit('.',1)[0] + '.json'
 
-with open(outputactorfilename) as f:  #write file and use meld to compare two files
-    f.writelines() #check  
+with open(outputactorfilename, 'w') as f:  #write file and use meld to compare two files
+    f.writelines(lines) #check  
