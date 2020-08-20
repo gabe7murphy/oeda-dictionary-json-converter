@@ -54,20 +54,12 @@ actordict = {
 
 
 for line in lines:
+    
+ if line == '\n':
+    nextActor == True
 
+ else:
     line = line.strip()
-    
-    if line == '\n':
-       line = i
-    
-   nextActor = True
-   for i in list1:
-    if i == 1:
-        nextActor = True
-    else:
-        pass
-    # if  line is blank here, skip all the rest of the code in
-    # this loop and just read the next line
 
     if line.startswith('+'):
         actordict["alias"].append(line)
@@ -75,6 +67,21 @@ for line in lines:
         actordict["codes"].append(line)
     else: 
         actordict["name"] = line
+        
+actorlist.append(actordict)
+    
+         if nextActor == True
+        print()
+            if line.startswith('+'):
+                actordict["alias"].append(line)
+            elif line.startswith('['):
+                actordict["codes"].append(line)
+            else: 
+                actordict["name"] = line
+
+        actorlist.append(actordict)
+
+
 
     # If your actor already has a name, and then you see
     # a new name, then it means you are done reading the current
