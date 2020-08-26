@@ -77,16 +77,20 @@ for line in lines:
                 # and needs to be pushed onto the actor list
                 # Gabe replace this pass with code that pushes the existing 
                 # actor to the actorlist
-                pass 
+                actorlist.append(actordict)
+                actordict = actordict = {
+                "name": line,
+                "alias":[], 
+                "codes": []
+                }    
             else:
                 # In this part since the actor name is NONE that means this is the first actor.
                 #  So - here is where you create a new blank actor_dict and populate
                 #  the new name. Replace this pass with code that creates a blank actor_dict
                 #  with the new name.
-                pass
-                
-    
-    
+                actordict["name"] = line    
+
+actorlist.append(actordict)    
 # Gabe figure out where this append should happen: actorlist.append(actordict)
 
 with open(outputactorfilename, 'w', encoding='utf-8') as f:
