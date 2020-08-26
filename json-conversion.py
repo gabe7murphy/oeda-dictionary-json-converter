@@ -47,29 +47,47 @@ actorlist = []
 
 
 actordict = {
-    "name": "",
+    "name": "NONE",
     "alias":[], 
     "codes": []
 }    
 
 #is line blank or comment 
 for line in lines:
- if line == '\n' or line.startswith("#") == True:
-      pass
- 
-#appending the code or alias to actor dictionary
- else:
-    line = line.strip()
 
-    if line.startswith('+'):
-        actordict["alias"].append(line)
-    elif line.startswith('['):
-        actordict["codes"].append(line)
-    else: 
-        actordict["name"] = line
+    line = line.strip()  #remove leading & trailing spaces
+
+    if len(line) < 1 or line.startswith("#"):
+        print("Skipping blank or comment")
+        pass  
+ 
+    else:   
+        # In this part we know the line is not a comment and not blank,
+        # so it must be a code, and alias, or an actor name.
+
+        if line.startswith('+'):
+            actordict["alias"].append(line)
+        elif line.startswith('['):
+            actordict["codes"].append(line)
+        else:   
+            # in this part we know that the line is not an alias and not a code, so it must be
+            # a new actor name
+            if actordict["name"] != "NONE":
+                # In this part we know that the existing actor_dict is complete
+                # and needs to be pushed onto the actor list
+                # Gabe replace this pass with code that pushes the existing 
+                # actor to the actorlist
+                pass 
+            else:
+                # In this part since the actor name is NONE that means this is the first actor.
+                #  So - here is where you create a new blank actor_dict and populate
+                #  the new name. Replace this pass with code that creates a blank actor_dict
+                #  with the new name.
+                pass
+                
     
     
- actorlist.append(actordict)
+# Gabe figure out where this append should happen: actorlist.append(actordict)
 
 with open(outputactorfilename, 'w', encoding='utf-8') as f:
     json.dump(actorlist, f, ensure_ascii=False, indent=4)
