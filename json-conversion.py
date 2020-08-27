@@ -60,10 +60,13 @@ for line in lines:
     if len(line) < 1 or line.startswith("#"):
         print("Skipping blank or comment")
         pass  
- 
+
     else:   
         # In this part we know the line is not a comment and not blank,
         # so it must be a code, and alias, or an actor name.
+
+        if line.endswith("# CountryInfo.txt"):
+            line = line[:-17]
 
         if line.startswith('+'):
             actordict["alias"].append(line)
@@ -73,10 +76,6 @@ for line in lines:
             # in this part we know that the line is not an alias and not a code, so it must be
             # a new actor name
             if actordict["name"] != "NONE":
-                # In this part we know that the existing actor_dict is complete
-                # and needs to be pushed onto the actor list
-                # Gabe replace this pass with code that pushes the existing 
-                # actor to the actorlist
                 actorlist.append(actordict)
                 actordict = actordict = {
                 "name": line,
