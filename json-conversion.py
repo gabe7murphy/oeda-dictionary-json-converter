@@ -49,7 +49,8 @@ actorlist = []
 actordict = {
     "name": "NONE",
     "alias":[], 
-    "codes": []
+    "codes": [],
+    "comments": []
 }    
 
 #is line blank or comment 
@@ -67,6 +68,9 @@ for line in lines:
 
         if line.endswith("# CountryInfo.txt"):
             line = line[:-17]
+
+        if "#" in line:
+            actordict["comments"].append(line)
 
         if line.startswith('+'):
             actordict["alias"].append(line)
