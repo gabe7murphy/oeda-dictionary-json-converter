@@ -2,6 +2,16 @@ import sys
 import os
 import json
 
+
+def extract_name_and_code(line):
+
+    code_idx = line.index("[")
+
+    name = line[0:code_idx].strip()
+    code = line[code_idx:].strip()
+
+    return name, code
+
 print ('Number of arguments:', len(sys.argv), 'arguments.')
 print ('Argument List:', str(sys.argv))
 
@@ -79,19 +89,30 @@ for line in lines:
         else:   
             # in this part we know that the line is not an alias and not a code, so it must be
             # a new actor name
+
+            # if the code is on the same line as the actor name,
+            #  call a function to break them apart
+            actor_name = ""
+            codes = []
+
+            if "[" in line:   # the actor name and the actor code are on the same line
+                actor_name, actor_code = extract_name_and_code(line)
+                codes.append(actor_code)
+            else:
+                actor_name = line
+            
+
             if actordict["name"] != "NONE":
                 actorlist.append(actordict)
                 actordict = actordict = {
-                "name": line,
+                "name": actor_name,
                 "alias":[], 
-                "codes": [],
+                "codes": codes,
                 "comments": []
                 }    
-            elif "[" in line:
-                line = line.split("_")
-                actordict["codes"].append(line[1])
             else:
-                actordict["name"] = line    
+                actordict["name"] = actor_name    
+                actordict["codes"] = codes
 
 actorlist.append(actordict)    
 
