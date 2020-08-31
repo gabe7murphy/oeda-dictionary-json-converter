@@ -84,17 +84,16 @@ for line in lines:
                 actordict = actordict = {
                 "name": line,
                 "alias":[], 
-                "codes": []
+                "codes": [],
+                "comments": []
                 }    
+            elif "[" in line:
+                line = line.split("_")
+                actordict["codes"].append(line[1])
             else:
-                # In this part since the actor name is NONE that means this is the first actor.
-                #  So - here is where you create a new blank actor_dict and populate
-                #  the new name. Replace this pass with code that creates a blank actor_dict
-                #  with the new name.
                 actordict["name"] = line    
 
 actorlist.append(actordict)    
-# Gabe figure out where this append should happen: actorlist.append(actordict)
 
 with open(outputactorfilename, 'w', encoding='utf-8') as f:
     json.dump(actorlist, f, ensure_ascii=False, indent=4)
