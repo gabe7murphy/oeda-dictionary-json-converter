@@ -95,25 +95,21 @@ for line in lines:
         if line.startswith('+'):
             actordict["alias"].append(line)
 
-            new_alias = [],
+            alias = [],
             new_comment = []
 
             if "#" in line:
-                new_alias, new_comment = extract_comment_and_alias(line)
-                new_comment += new_alias
+                new_comment = extract_comment_and_alias(line)
+                alias = new_comment
 
         elif line.startswith('['):
             actordict["codes"].append(line)
         else:   
-            # in this part we know that the line is not an alias and not a code, so it must be
-            # a new actor name
 
-            # if the code is on the same line as the actor name,
-            #  call a function to break them apart
             actor_name = ""
             codes = []
 
-            if "[" in line:   # the actor name and the actor code are on the same line
+            if "[" in line:   
                 actor_name, actor_code = extract_name_and_code(line)
                 codes.append(actor_code)
             else:
