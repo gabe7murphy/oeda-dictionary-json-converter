@@ -1,6 +1,6 @@
 [
     {
-        "name": "AFGHAN_NATIONAL_SECURITY_FORCES",
+        "name": "AFGHANISTAN_",
         "alias": [
             "+AFGHAN_",
             "+AFGANISTAN_",
@@ -52,19 +52,27 @@
             "+SAR-E_POL",
             "+TAKHAR",
             "+UROZGAN",
-            "+ZABUL",
-            "+ANSF",
-            "+AFGHAN_NATIONAL_ARMY",
-            "+AFGHAN_NATIONAL_ARMY_SOLDIERS"
+            "+ZABUL"
         ],
         "codes": [
-            "  [AFG]",
-            "[AFGMIL]"
+            "[AFG]"
         ],
         "comments": [
             "+HELMAND # Other provinces, since they're reported often",
             "+LOGAR_PROVINCE # disambig"
         ]
+    },
+    {
+        "name": "AFGHAN_NATIONAL_SECURITY_FORCES",
+        "alias": [
+            "+ANSF",
+            "+AFGHAN_NATIONAL_ARMY",
+            "+AFGHAN_NATIONAL_ARMY_SOLDIERS"
+        ],
+        "codes": [
+            "[AFGMIL]"
+        ],
+        "comments": []
     },
     {
         "name": "MOHAMMAD_ZAHIR_SHAH_  ",
@@ -1357,7 +1365,7 @@
         "comments": []
     },
     {
-        "name": "ALBANIA_  [ALB]",
+        "name": "ALBANIA_",
         "alias": [
             "+ALBANIAN_",
             "+ARBANIA_",
@@ -1371,7 +1379,9 @@
             "+DURAZZO_",
             "+EPIRUS_"
         ],
-        "codes": [],
+        "codes": [
+            "[ALB]"
+        ],
         "comments": []
     },
     {
@@ -2056,7 +2066,7 @@
         "comments": []
     },
     {
-        "name": "ALGERIA_  [DZA]",
+        "name": "ALGERIA_",
         "alias": [
             "+ALGERIAN_",
             "+DZAYER_",
@@ -2076,7 +2086,9 @@
             "+REGGANE_",
             "+TIMIMOUN_"
         ],
-        "codes": [],
+        "codes": [
+            "[DZA]"
+        ],
         "comments": []
     },
     {
@@ -2997,7 +3009,7 @@
         "comments": []
     },
     {
-        "name": "AMERICAN_SAMOA_  [USAASM]",
+        "name": "AMERICAN_SAMOA_",
         "alias": [
             "+SAMOAN_",
             "+EASTERN_SAMOA_",
@@ -3014,7 +3026,9 @@
             "+PAGO_PAGO_",
             "+PANGO_PANGO_"
         ],
-        "codes": [],
+        "codes": [
+            "[USAASM]"
+        ],
         "comments": []
     },
     {
@@ -3096,13 +3110,15 @@
         "comments": []
     },
     {
-        "name": "ANDORRA_  [AND]",
+        "name": "ANDORRA_",
         "alias": [
             "+ANDORRAN_",
             "+ANDORRE_",
             "+ANDORRA_LA_VELLA_"
         ],
-        "codes": [],
+        "codes": [
+            "[AND]"
+        ],
         "comments": []
     },
     {
@@ -3643,7 +3659,7 @@
         "comments": []
     },
     {
-        "name": "ANGOLA_  [AGO]",
+        "name": "ANGOLA_",
         "alias": [
             "+ANGOLAN_",
             "+LUANDA_",
@@ -3651,7 +3667,9 @@
             "+NOVA_LISBOA_",
             "+LOBITO_"
         ],
-        "codes": [],
+        "codes": [
+            "[AGO]"
+        ],
         "comments": []
     },
     {
@@ -4529,13 +4547,15 @@
         "comments": []
     },
     {
-        "name": "ANGUILLA_  [AIA]",
+        "name": "ANGUILLA_",
         "alias": [
             "+ANGUILA_",
             "+ANGULLA_",
             "+ANGUILLANS_"
         ],
-        "codes": [],
+        "codes": [
+            "[AIA]"
+        ],
         "comments": []
     },
     {
@@ -4734,7 +4754,7 @@
         "comments": []
     },
     {
-        "name": "ANTIGUA_AND_BARBUDA_  [ATG]",
+        "name": "ANTIGUA_AND_BARBUDA_",
         "alias": [
             "+ANTIGUANS_",
             "+BARBUDANS_",
@@ -4744,7 +4764,9 @@
             "+ST._JOHN'S_",
             "+REDONDA_"
         ],
-        "codes": [],
+        "codes": [
+            "[ATG]"
+        ],
         "comments": []
     },
     {
@@ -5066,7 +5088,7 @@
         "comments": []
     },
     {
-        "name": "ARGENTINA_  [ARG]",
+        "name": "ARGENTINA_",
         "alias": [
             "+ARGENTINE_",
             "+ARGENTINEAN_",
@@ -5104,7 +5126,9 @@
             "+PISSIS_",
             "+BUENOS_AIRES_"
         ],
-        "codes": [],
+        "codes": [
+            "[ARG]"
+        ],
         "comments": []
     },
     {
@@ -6690,11 +6714,13 @@
         "comments": []
     },
     {
-        "name": "ARUBA_  [ABW]",
+        "name": "ARUBA_",
         "alias": [
             "+ARUBAN_"
         ],
-        "codes": [],
+        "codes": [
+            "[ABW]"
+        ],
         "comments": []
     },
     {
@@ -6893,7 +6919,7 @@
         "comments": []
     },
     {
-        "name": "AUSTRALIA_  [AUS]",
+        "name": "AUSTRALIA_",
         "alias": [
             "+AUSTRALIAN",
             "+AUSTRALIANS",
@@ -6959,7 +6985,9 @@
             "+NAMOI_",
             "+NAMOI_RIVER_"
         ],
-        "codes": [],
+        "codes": [
+            "[AUS]"
+        ],
         "comments": []
     },
     {
@@ -7983,7 +8011,7 @@
         "comments": []
     },
     {
-        "name": "AUSTRIA_  [AUT]",
+        "name": "AUSTRIA_",
         "alias": [
             "+AUSTRIAN_",
             "+OSTERREICH_",
@@ -8000,7 +8028,9 @@
             "+INNSBRUCK_",
             "+WAGRAM_"
         ],
-        "codes": [],
+        "codes": [
+            "[AUT]"
+        ],
         "comments": []
     },
     {
@@ -9185,13 +9215,15 @@
         "comments": []
     },
     {
-        "name": "BAHAMAS_  [BHS]",
+        "name": "BAHAMAS_",
         "alias": [
             "+BAHAMIAN_",
             "+BAHAMA_",
             "+NASSAU_"
         ],
-        "codes": [],
+        "codes": [
+            "[BHS]"
+        ],
         "comments": []
     },
     {
@@ -9682,7 +9714,7 @@
         "comments": []
     },
     {
-        "name": "BAHRAIN_  [BHR]",
+        "name": "BAHRAIN_",
         "alias": [
             "+BAHRAINI_",
             "+BAHREIN_",
@@ -9690,7 +9722,9 @@
             "+BAHRAYNAL_BAHRAIN_",
             "+MANAMA_"
         ],
-        "codes": [],
+        "codes": [
+            "[BHR]"
+        ],
         "comments": []
     },
     {
@@ -10313,7 +10347,7 @@
         "comments": []
     },
     {
-        "name": "BANGLADESH_  [BGD]",
+        "name": "BANGLADESH_",
         "alias": [
             "+BANGLADESHI_",
             "+BANGLA_DESH_",
@@ -10393,7 +10427,9 @@
             "+MAULVIBAZAR_",
             "+SUNAMGANJ_"
         ],
-        "codes": [],
+        "codes": [
+            "[BGD]"
+        ],
         "comments": []
     },
     {
@@ -11383,7 +11419,7 @@
         "comments": []
     },
     {
-        "name": "BARBADOS_  [BRB]",
+        "name": "BARBADOS_",
         "alias": [
             "+BARBADIAN_",
             "+BAJUNS_",
@@ -11391,7 +11427,9 @@
             "+BARBADAN_",
             "+BRIDGETOWN_"
         ],
-        "codes": [],
+        "codes": [
+            "[BRB]"
+        ],
         "comments": []
     },
     {
@@ -12977,7 +13015,7 @@
         "comments": []
     },
     {
-        "name": "BELGIUM_  [BEL]",
+        "name": "BELGIUM_",
         "alias": [
             "+BELGIAN_",
             "+BELGIE_",
@@ -13011,7 +13049,9 @@
             "+NAMUR_",
             "+WATERLOO_"
         ],
-        "codes": [],
+        "codes": [
+            "[BEL]"
+        ],
         "comments": []
     },
     {
@@ -13716,7 +13756,7 @@
         "comments": []
     },
     {
-        "name": "BELIZE_  [BLZ]",
+        "name": "BELIZE_",
         "alias": [
             "+BELIZEAN_",
             "+BALIZE_",
@@ -13725,7 +13765,9 @@
             "+BELIZ_",
             "+BELMOPAN_"
         ],
-        "codes": [],
+        "codes": [
+            "[BLZ]"
+        ],
         "comments": []
     },
     {
@@ -14270,14 +14312,16 @@
         "comments": []
     },
     {
-        "name": "BENIN_  [BEN]",
+        "name": "BENIN_",
         "alias": [
             "+BENINESE_",
             "+DAHOMEY_",
             "+PORTO_NOVO_",
             "+COTONOU_"
         ],
-        "codes": [],
+        "codes": [
+            "[BEN]"
+        ],
         "comments": []
     },
     {
@@ -15427,7 +15471,7 @@
         "comments": []
     },
     {
-        "name": "BERMUDA_  [BMU]",
+        "name": "BERMUDA_",
         "alias": [
             "+BERMUDIAN_",
             "+BERMUDAS_",
@@ -15440,7 +15484,9 @@
             "+ISLE_OF_DEVILS_",
             "+DEVIL'S_ISLES_"
         ],
-        "codes": [],
+        "codes": [
+            "[BMU]"
+        ],
         "comments": []
     },
     {
@@ -15813,7 +15859,7 @@
         "comments": []
     },
     {
-        "name": "BHUTAN_  [BTN]",
+        "name": "BHUTAN_",
         "alias": [
             "+BHUTANESE_",
             "+DRUK_YUL_",
@@ -15843,7 +15889,9 @@
             "+WANGDUE_PHODRANG_",
             "+ZHEMGANG_"
         ],
-        "codes": [],
+        "codes": [
+            "[BTN]"
+        ],
         "comments": []
     },
     {
@@ -16126,7 +16174,7 @@
         "comments": []
     },
     {
-        "name": "BOLIVIA_  [BOL]",
+        "name": "BOLIVIA_",
         "alias": [
             "+BOLIVIAN_",
             "+BOLIVA_",
@@ -16140,7 +16188,9 @@
             "+ILLAMANI_",
             "+SAJAMA_"
         ],
-        "codes": [],
+        "codes": [
+            "[BOL]"
+        ],
         "comments": []
     },
     {
@@ -17634,7 +17684,7 @@
         "comments": []
     },
     {
-        "name": "BOSNIA_AND_HERZEGOVINA [BIH]",
+        "name": "BOSNIA_AND_HERZEGOVINA",
         "alias": [
             "+BIH_",
             "+BOSNIA_",
@@ -17652,13 +17702,14 @@
             "+HERCEGOVINA_"
         ],
         "codes": [
+            "[BIH]",
             "[YUGBIH <920305]",
             "[BIH >920305]"
         ],
         "comments": []
     },
     {
-        "name": "REPUBLICA_SRPSKA [BIHSRP]",
+        "name": "REPUBLICA_SRPSKA",
         "alias": [
             "+REPUBLIC_OF_SRPSKA_",
             "+REPUBLIKA_SRPSKA_",
@@ -17667,13 +17718,14 @@
             "+BANJA_LUKA_"
         ],
         "codes": [
+            "[BIHSRP]",
             "[SRPUNR 920109-951214]",
             "[BIHSRP >951214]"
         ],
         "comments": []
     },
     {
-        "name": "BOTSWANA_  [BWA]",
+        "name": "BOTSWANA_",
         "alias": [
             "+MOTSWANA_",
             "+BATSWANA_",
@@ -17683,7 +17735,9 @@
             "+KALAHARI_",
             "+KALAHARI_DESERT_"
         ],
-        "codes": [],
+        "codes": [
+            "[BWA]"
+        ],
         "comments": []
     },
     {
@@ -18136,7 +18190,7 @@
         "comments": []
     },
     {
-        "name": "BRAZIL_  [BRA]",
+        "name": "BRAZIL_",
         "alias": [
             "+BRAZILIAN_",
             "+BRESIL_",
@@ -18191,7 +18245,9 @@
             "+URUBUPUNGA_",
             "+URUBUPUNGA_FALLS_"
         ],
-        "codes": [],
+        "codes": [
+            "[BRA]"
+        ],
         "comments": []
     },
     {
@@ -19302,14 +19358,16 @@
         "comments": []
     },
     {
-        "name": "BRITISH_VIRGIN_ISLANDS_  [GBRVGB]",
+        "name": "BRITISH_VIRGIN_ISLANDS_",
         "alias": [
             "+BRITISH_VIRGIN_ISLANDER_",
             "+VIRGIN_ISLANDS_(UK)_",
             "+VIRGIN_ISLANDS,_BRITISH_",
             "+UK_VIRGIN_ISLANDS_"
         ],
-        "codes": [],
+        "codes": [
+            "[GBRVGB]"
+        ],
         "comments": []
     },
     {
@@ -19496,7 +19554,7 @@
         "comments": []
     },
     {
-        "name": "BRUNEI_DARUSSALAM_  [BRN]",
+        "name": "BRUNEI_DARUSSALAM_",
         "alias": [
             "+BRUNEIAN_",
             "+BRUNEI_",
@@ -19504,7 +19562,9 @@
             "+BURNEI_",
             "+BANDAR_SERI_BEGAWAN_"
         ],
-        "codes": [],
+        "codes": [
+            "[BRN]"
+        ],
         "comments": []
     },
     {
@@ -19857,7 +19917,7 @@
         "comments": []
     },
     {
-        "name": "BULGARIA_  [BGR]",
+        "name": "BULGARIA_",
         "alias": [
             "+BULGARIAN_",
             "+BULGARIYA_",
@@ -19871,7 +19931,9 @@
             "+PHILIPPOPOLIS_",
             "+VARNA_"
         ],
-        "codes": [],
+        "codes": [
+            "[BGR]"
+        ],
         "comments": []
     },
     {
@@ -20761,7 +20823,7 @@
         "comments": []
     },
     {
-        "name": "BURKINA_FASO_  [BFA]",
+        "name": "BURKINA_FASO_",
         "alias": [
             "+BURKINABE_",
             "+BURKINA_",
@@ -20772,7 +20834,9 @@
             "+BOURKINA_FASSO_",
             "+OUAGADOUGOU_"
         ],
-        "codes": [],
+        "codes": [
+            "[BFA]"
+        ],
         "comments": []
     },
     {
@@ -21464,7 +21528,7 @@
         "comments": []
     },
     {
-        "name": "BURUNDI_  [BDI]",
+        "name": "BURUNDI_",
         "alias": [
             "+BURUNDIAN_",
             "+BURUNDIS_",
@@ -21472,7 +21536,9 @@
             "+BUJUMBURA_",
             "+USUMBURA_"
         ],
-        "codes": [],
+        "codes": [
+            "[BDI]"
+        ],
         "comments": []
     },
     {
@@ -22579,7 +22645,7 @@
         "comments": []
     },
     {
-        "name": "CAMBODIA_  [KHM]",
+        "name": "CAMBODIA_",
         "alias": [
             "+CAMBODIAN",
             "+CAMBODIANS",
@@ -22617,7 +22683,9 @@
             "+SVAY_RIENG_",
             "+TAKEO_"
         ],
-        "codes": [],
+        "codes": [
+            "[KHM]"
+        ],
         "comments": []
     },
     {
@@ -23893,7 +23961,7 @@
         "comments": []
     },
     {
-        "name": "CAMEROON_  [CMR]",
+        "name": "CAMEROON_",
         "alias": [
             "+CAMEROONIAN_",
             "+CAMEROUN_",
@@ -23904,7 +23972,9 @@
             "+YAOUNDE_",
             "+DOUALA_"
         ],
-        "codes": [],
+        "codes": [
+            "[CMR]"
+        ],
         "comments": []
     },
     {
@@ -24898,7 +24968,7 @@
         "comments": []
     },
     {
-        "name": "CANADA_  [CAN]",
+        "name": "CANADA_",
         "alias": [
             "+CANADIAN_",
             "+KAENADA_",
@@ -24938,7 +25008,9 @@
             "+OTTAWA_RIVER_",
             "+YUKON_RIVER_"
         ],
-        "codes": [],
+        "codes": [
+            "[CAN]"
+        ],
         "comments": []
     },
     {
@@ -26152,7 +26224,7 @@
         "comments": []
     },
     {
-        "name": "CAPE_VERDE_  [CPV]",
+        "name": "CAPE_VERDE_",
         "alias": [
             "+CAPE_VERDIAN_",
             "+CAPE_VERDEAN_",
@@ -26166,7 +26238,9 @@
             "+KAPVERDEN_",
             "+PRAIA_"
         ],
-        "codes": [],
+        "codes": [
+            "[CPV]"
+        ],
         "comments": []
     },
     {
@@ -26581,7 +26655,7 @@
         "comments": []
     },
     {
-        "name": "CAYMAN_ISLANDS_  [CYM]",
+        "name": "CAYMAN_ISLANDS_",
         "alias": [
             "+CAYMANS_",
             "+CAIMAN_ISLANDS_",
@@ -26590,7 +26664,9 @@
             "+LAS_TORTUGAS_",
             "+GEORGE_TOWN_"
         ],
-        "codes": [],
+        "codes": [
+            "[CYM]"
+        ],
         "comments": []
     },
     {
@@ -26753,7 +26829,7 @@
         "comments": []
     },
     {
-        "name": "CENTRAL_AFRICAN_REPUBLIC  [CAF]",
+        "name": "CENTRAL_AFRICAN_REPUBLIC",
         "alias": [
             "+CENTRAL_AFRICAN_",
             "+CENTRAFRIQUE_",
@@ -26762,7 +26838,9 @@
             "+CENTRAL_AFRICAN_REP._",
             "+BANGUI_"
         ],
-        "codes": [],
+        "codes": [
+            "[CAF]"
+        ],
         "comments": []
     },
     {
@@ -27480,7 +27558,7 @@
         "comments": []
     },
     {
-        "name": "CHAD_  [TCD]",
+        "name": "CHAD_",
         "alias": [
             "+CHADIAN_",
             "+TCHAD_",
@@ -27491,7 +27569,9 @@
             "+NDJAMENA_",
             "+FORT-LAMY_"
         ],
-        "codes": [],
+        "codes": [
+            "[TCD]"
+        ],
         "comments": []
     },
     {
@@ -28874,7 +28954,7 @@
         "comments": []
     },
     {
-        "name": "CHILE_  [CHL]",
+        "name": "CHILE_",
         "alias": [
             "+CHILEAN_",
             "+CXILIO_",
@@ -28894,7 +28974,9 @@
             "+LASCAR_",
             "+TUPUNGATITO_"
         ],
-        "codes": [],
+        "codes": [
+            "[CHL]"
+        ],
         "comments": []
     },
     {
@@ -29787,7 +29869,7 @@
         "comments": []
     },
     {
-        "name": "CHINA_  [CHN]",
+        "name": "CHINA_",
         "alias": [
             "+CHINESE_",
             "+PEOPLE'S_REPUBLIC_OF_CHINA",
@@ -29960,7 +30042,9 @@
             "+PEARL_RIVER_",
             "+DANDONG"
         ],
-        "codes": [],
+        "codes": [
+            "[CHN]"
+        ],
         "comments": []
     },
     {
@@ -31465,7 +31549,7 @@
         "comments": []
     },
     {
-        "name": "COLOMBIA_  [COL]",
+        "name": "COLOMBIA_",
         "alias": [
             "+COLOMBIAN_",
             "+COLOMBIANOS_",
@@ -31479,7 +31563,9 @@
             "+PASTO_",
             "+PURACE_"
         ],
-        "codes": [],
+        "codes": [
+            "[COL]"
+        ],
         "comments": []
     },
     {
@@ -32098,7 +32184,7 @@
         "comments": []
     },
     {
-        "name": "COMOROS_  [COM]",
+        "name": "COMOROS_",
         "alias": [
             "+COMORAN_",
             "+COMORES_",
@@ -32129,7 +32215,9 @@
             "+NGAZIDJA_",
             "+NZWANI_"
         ],
-        "codes": [],
+        "codes": [
+            "[COM]"
+        ],
         "comments": []
     },
     {
@@ -32881,7 +32969,7 @@
         "comments": []
     },
     {
-        "name": "CONGO_  [COG]",
+        "name": "CONGO_",
         "alias": [
             "+CONGO_BRAZZAVILLE_",
             "+MIDDLE_CONGO_",
@@ -32905,7 +32993,9 @@
             "+LITTLE_CONGO_",
             "+BRAZZAVILLE_"
         ],
-        "codes": [],
+        "codes": [
+            "[COG]"
+        ],
         "comments": []
     },
     {
@@ -33679,11 +33769,13 @@
         "comments": []
     },
     {
-        "name": "COOK_ISLANDS_  [COK]",
+        "name": "COOK_ISLANDS_",
         "alias": [
             "+COOK_ISLANDER_"
         ],
-        "codes": [],
+        "codes": [
+            "[COK]"
+        ],
         "comments": []
     },
     {
@@ -33907,7 +33999,7 @@
         "comments": []
     },
     {
-        "name": "COSTA_RICA_  [CRI]",
+        "name": "COSTA_RICA_",
         "alias": [
             "+COSTA_RICAN_",
             "+TIQUICIA_",
@@ -33915,7 +34007,9 @@
             "+COSAT_RICA_",
             "+COASTA_RICA_"
         ],
-        "codes": [],
+        "codes": [
+            "[CRI]"
+        ],
         "comments": []
     },
     {
@@ -34657,7 +34751,7 @@
         "comments": []
     },
     {
-        "name": "COTE_D'IVOIRE_  [CIV]",
+        "name": "COTE_D'IVOIRE_",
         "alias": [
             "+IVORIAN_",
             "+IVORY_COAST_",
@@ -34675,7 +34769,9 @@
             "+ABIDJAN_",
             "+YAMOUSSOUKRO_"
         ],
-        "codes": [],
+        "codes": [
+            "[CIV]"
+        ],
         "comments": []
     },
     {
@@ -36290,7 +36386,7 @@
         "comments": []
     },
     {
-        "name": "CUBA_  [CUB]",
+        "name": "CUBA_",
         "alias": [
             "+CUBAN_",
             "+CUBANS_",
@@ -36298,7 +36394,9 @@
             "+LA_HABANA_",
             "+SANTIAGO_DE_CUBA_"
         ],
-        "codes": [],
+        "codes": [
+            "[CUB]"
+        ],
         "comments": []
     },
     {
@@ -36979,14 +37077,16 @@
         "comments": []
     },
     {
-        "name": "CROATIA_ [HRV]",
+        "name": "CROATIA_",
         "alias": [
             "+CROATIAN_",
             "+CROAT_",
             "+ZAGREB_",
             "+REPUBLIC_OF_CROATIA_"
         ],
-        "codes": [],
+        "codes": [
+            "[HRV]"
+        ],
         "comments": []
     },
     {
@@ -37019,7 +37119,7 @@
         "comments": []
     },
     {
-        "name": "CYPRUS_  [CYP]",
+        "name": "CYPRUS_",
         "alias": [
             "+CYPRIOT_",
             "+KYPROS_",
@@ -37028,7 +37128,9 @@
             "+CYRPUS_",
             "+NICOSIA_"
         ],
-        "codes": [],
+        "codes": [
+            "[CYP]"
+        ],
         "comments": []
     },
     {
@@ -37585,7 +37687,7 @@
         "comments": []
     },
     {
-        "name": "CZECH_REPUBLIC_  [CZE]",
+        "name": "CZECH_REPUBLIC_",
         "alias": [
             "+CZECH",
             "+CZECHS",
@@ -37623,7 +37725,9 @@
             "+OSTRAVA_",
             "+MORAVIA_"
         ],
-        "codes": [],
+        "codes": [
+            "[CZE]"
+        ],
         "comments": []
     },
     {
@@ -38457,7 +38561,7 @@
         "comments": []
     },
     {
-        "name": "DEMOCRATIC_REPUBLIC_OF_THE_CONGO_  [COD]",
+        "name": "DEMOCRATIC_REPUBLIC_OF_THE_CONGO_",
         "alias": [
             "+CONGOLESE_",
             "+SOUTH_CONGO_",
@@ -38519,7 +38623,9 @@
             "+NYAMURAGIRA_",
             "+NYIRAGONGO_"
         ],
-        "codes": [],
+        "codes": [
+            "[COD]"
+        ],
         "comments": []
     },
     {
@@ -40139,7 +40245,7 @@
         "comments": []
     },
     {
-        "name": "DENMARK_  [DNK]",
+        "name": "DENMARK_",
         "alias": [
             "+DANNISH_",
             "+DANE_",
@@ -40165,7 +40271,9 @@
             "+ALBORG_",
             "+VIBORG_"
         ],
-        "codes": [],
+        "codes": [
+            "[DNK]"
+        ],
         "comments": []
     },
     {
@@ -40615,7 +40723,7 @@
         "comments": []
     },
     {
-        "name": "DJIBOUTI_  [DJI]",
+        "name": "DJIBOUTI_",
         "alias": [
             "+DJIBUTI_",
             "+JIBUTI_",
@@ -40626,7 +40734,9 @@
             "+JIBOUTI_",
             "+DIJBOUTI_"
         ],
-        "codes": [],
+        "codes": [
+            "[DJI]"
+        ],
         "comments": []
     },
     {
@@ -40949,12 +41059,14 @@
         "comments": []
     },
     {
-        "name": "DOMINICA_  [DMA]",
+        "name": "DOMINICA_",
         "alias": [
             "+THE_NATURE_ISLAND_",
             "+ROSEAU_"
         ],
-        "codes": [],
+        "codes": [
+            "[DMA]"
+        ],
         "comments": []
     },
     {
@@ -41370,7 +41482,7 @@
         "comments": []
     },
     {
-        "name": "DOMINICAN_REPUBLIC_  [DOM]",
+        "name": "DOMINICAN_REPUBLIC_",
         "alias": [
             "+DOMINICAN_",
             "+REPUBLICA_DOMINICANA_",
@@ -41388,7 +41500,9 @@
             "+CIUDAD_TRUJILLO_",
             "+SANTIAGO_DE_LOS_CABALLEROS_"
         ],
-        "codes": [],
+        "codes": [
+            "[DOM]"
+        ],
         "comments": []
     },
     {
@@ -42110,7 +42224,7 @@
         "comments": []
     },
     {
-        "name": "ECUADOR_  [ECU]",
+        "name": "ECUADOR_",
         "alias": [
             "+ECUADOREAN_",
             "+ECUADORIAN_",
@@ -42124,7 +42238,9 @@
             "+SANGAY_",
             "+CHIMBORAZO_"
         ],
-        "codes": [],
+        "codes": [
+            "[ECU]"
+        ],
         "comments": []
     },
     {
@@ -43771,7 +43887,7 @@
         "comments": []
     },
     {
-        "name": "EGYPT_  [EGY]",
+        "name": "EGYPT_",
         "alias": [
             "+EGYPTIAN",
             "+EGYPTE_",
@@ -43817,7 +43933,9 @@
             "+NILE_RIVER_",
             "+MINYA"
         ],
-        "codes": [],
+        "codes": [
+            "[EGY]"
+        ],
         "comments": []
     },
     {
@@ -44802,7 +44920,7 @@
         "comments": []
     },
     {
-        "name": "EL_SALVADOR_  [SLV]",
+        "name": "EL_SALVADOR_",
         "alias": [
             "+SALVADORAN_",
             "+EL_SALBADOR_",
@@ -44812,7 +44930,9 @@
             "+SAN_SALVADOR_",
             "+SANTA_ANA_"
         ],
-        "codes": [],
+        "codes": [
+            "[SLV]"
+        ],
         "comments": []
     },
     {
@@ -45479,7 +45599,7 @@
         "comments": []
     },
     {
-        "name": "EQUATORIAL_GUINEA_  [GNQ]",
+        "name": "EQUATORIAL_GUINEA_",
         "alias": [
             "+EQUATORIAL_GUINEAN_",
             "+EQUATOGUINEAN_",
@@ -45499,7 +45619,9 @@
             "+MALABO_",
             "+BIOKO_"
         ],
-        "codes": [],
+        "codes": [
+            "[GNQ]"
+        ],
         "comments": []
     },
     {
@@ -47115,7 +47237,7 @@
         "comments": []
     },
     {
-        "name": "ETHIOPIA_  [ETH]",
+        "name": "ETHIOPIA_",
         "alias": [
             "+ETHIOPIAN_",
             "+ITYOP'IA_",
@@ -47141,7 +47263,9 @@
             "+LAKE_TSANA_",
             "+BAHIR_DAR"
         ],
-        "codes": [],
+        "codes": [
+            "[ETH]"
+        ],
         "comments": []
     },
     {
@@ -47751,7 +47875,7 @@
         "comments": []
     },
     {
-        "name": "FAEROE_ISLANDS_  [DNKFRO]",
+        "name": "FAEROE_ISLANDS_",
         "alias": [
             "+FAEROE_",
             "+FAEROESE_",
@@ -47776,7 +47900,9 @@
             "+FAR_OER_",
             "+FAEREYJAR_"
         ],
-        "codes": [],
+        "codes": [
+            "[DNKFRO]"
+        ],
         "comments": []
     },
     {
@@ -47941,7 +48067,7 @@
         "comments": []
     },
     {
-        "name": "FALKLAND_ISLANDS_  [GBRFLK]",
+        "name": "FALKLAND_ISLANDS_",
         "alias": [
             "+FALKLAND_ISLANDER_",
             "+FALKLANDS_",
@@ -47954,7 +48080,9 @@
             "+MALVINE_ISLES_",
             "+MALVINE_ISLANDS_"
         ],
-        "codes": [],
+        "codes": [
+            "[GBRFLK]"
+        ],
         "comments": []
     },
     {
@@ -48107,13 +48235,15 @@
         "comments": []
     },
     {
-        "name": "SAINT_KITTS_AND_NEVIS_  [KNA]",
+        "name": "SAINT_KITTS_AND_NEVIS_",
         "alias": [],
-        "codes": [],
+        "codes": [
+            "[KNA]"
+        ],
         "comments": []
     },
     {
-        "name": "FEDERATION_OF_SAINT_KITTS_AND_NEVIS_  [KNA]",
+        "name": "FEDERATION_OF_SAINT_KITTS_AND_NEVIS_",
         "alias": [
             "+KITTIAN_",
             "+KITTITIAN_",
@@ -48150,7 +48280,9 @@
             "+SAINT_THOMAS_LOWLAND_",
             "+SAINT_THOMAS_MIDDLE_ISLAND_"
         ],
-        "codes": [],
+        "codes": [
+            "[KNA]"
+        ],
         "comments": []
     },
     {
@@ -48204,7 +48336,7 @@
         "comments": []
     },
     {
-        "name": "FIJI_  [FJI]",
+        "name": "FIJI_",
         "alias": [
             "+FIJIAN_",
             "+FIDJI_",
@@ -48227,7 +48359,9 @@
             "+TAILEVU_",
             "+ROTUMA_"
         ],
-        "codes": [],
+        "codes": [
+            "[FJI]"
+        ],
         "comments": []
     },
     {
@@ -48812,7 +48946,7 @@
         "comments": []
     },
     {
-        "name": "FINLAND_  [FIN]",
+        "name": "FINLAND_",
         "alias": [
             "+FINN_",
             "+FINNISH_",
@@ -48832,7 +48966,9 @@
             "+AALAND_ISLANDS_",
             "+AHVENANMAA_"
         ],
-        "codes": [],
+        "codes": [
+            "[FIN]"
+        ],
         "comments": []
     },
     {
@@ -49538,7 +49674,7 @@
         "comments": []
     },
     {
-        "name": "FRANCE_  [FRA]",
+        "name": "FRANCE_",
         "alias": [
             "+FRENCH_",
             "+FRANKREICH_",
@@ -49621,7 +49757,9 @@
             "+SAONE_RIVER_",
             "+STRASBOURG"
         ],
-        "codes": [],
+        "codes": [
+            "[FRA]"
+        ],
         "comments": []
     },
     {
@@ -50800,7 +50938,7 @@
         "comments": []
     },
     {
-        "name": "FRENCH_GUIANA_  [FRAGUF]",
+        "name": "FRENCH_GUIANA_",
         "alias": [
             "+FRENCH_GUIANESE_",
             "+FRENCH_GUYANE_",
@@ -50811,11 +50949,13 @@
             "+GUIANA_FRANCESA_",
             "+GUYANE_DEPARTEMENT_"
         ],
-        "codes": [],
+        "codes": [
+            "[FRAGUF]"
+        ],
         "comments": []
     },
     {
-        "name": "FRENCH_POLYNESIA_  [FRAPYF]",
+        "name": "FRENCH_POLYNESIA_",
         "alias": [
             "+FRENCH_POLYNESIAN_",
             "+FRENCH_OCEANIA_",
@@ -50829,18 +50969,22 @@
             "+MARQUESAS_ISLANDS_",
             "+ILES_MARQUISES_"
         ],
-        "codes": [],
+        "codes": [
+            "[FRAPYF]"
+        ],
         "comments": []
     },
     {
-        "name": "GABON_  [GAB]",
+        "name": "GABON_",
         "alias": [
             "+GABONESE_",
             "+GABUN_",
             "+GABONAISE_",
             "+LIBREVILLE_"
         ],
-        "codes": [],
+        "codes": [
+            "[GAB]"
+        ],
         "comments": []
     },
     {
@@ -51407,13 +51551,15 @@
         "comments": []
     },
     {
-        "name": "GAMBIA_  [GMB]",
+        "name": "GAMBIA_",
         "alias": [
             "+GAMBIAN_",
             "+SMILING_COAST_",
             "+BANJUL_"
         ],
-        "codes": [],
+        "codes": [
+            "[GMB]"
+        ],
         "comments": []
     },
     {
@@ -53055,13 +53201,14 @@
         "comments": []
     },
     {
-        "name": "GERMAN_DEMOCRATIC_REPUBLIC [DDR]",
+        "name": "GERMAN_DEMOCRATIC_REPUBLIC",
         "alias": [
             "+EAST_GERMANY",
             "+EAST_GERMAN",
             "+EAST_BERLIN"
         ],
         "codes": [
+            "[DDR]",
             "[DDR 19491007-19901003]"
         ],
         "comments": []
@@ -53220,7 +53367,7 @@
         "comments": []
     },
     {
-        "name": "GERMANY_  [DEU]",
+        "name": "GERMANY_",
         "alias": [
             "+GERMAN",
             "+FEDERAL_REPUBLIC_OF_GERMANY",
@@ -53296,7 +53443,9 @@
             "+WESER_",
             "+WESER_RIVER_"
         ],
-        "codes": [],
+        "codes": [
+            "[DEU]"
+        ],
         "comments": []
     },
     {
@@ -53898,7 +54047,7 @@
         "comments": []
     },
     {
-        "name": "GHANA_  [GHA]",
+        "name": "GHANA_",
         "alias": [
             "+GHANAIAN_",
             "+ACCRA_",
@@ -53907,7 +54056,9 @@
             "+TAMALE_",
             "+LAKE_VOLTA_"
         ],
-        "codes": [],
+        "codes": [
+            "[GHA]"
+        ],
         "comments": []
     },
     {
@@ -54994,7 +55145,7 @@
         "comments": []
     },
     {
-        "name": "GIBRALTAR_  [GBRGIB]",
+        "name": "GIBRALTAR_",
         "alias": [
             "+GIBRALTARIAN_",
             "+GIBRALTER_",
@@ -55008,11 +55159,13 @@
             "+BRITISH_GIBRALTAR_",
             "+CEBELITARIK_"
         ],
-        "codes": [],
+        "codes": [
+            "[GBRGIB]"
+        ],
         "comments": []
     },
     {
-        "name": "UNITED_KINGDOM_  [GBR]",
+        "name": "UNITED_KINGDOM_",
         "alias": [
             "+UNITED_KINGDOM_OF_GREAT_BRITAIN_AND_NORTHERN_IRELAND_",
             "+BRITISH_",
@@ -55072,7 +55225,9 @@
             "+EDINBURGH_",
             "+CARDIFF_"
         ],
-        "codes": [],
+        "codes": [
+            "[GBR]"
+        ],
         "comments": []
     },
     {
@@ -56019,7 +56174,7 @@
         "comments": []
     },
     {
-        "name": "GREECE_  [GRC]",
+        "name": "GREECE_",
         "alias": [
             "+GREEK_",
             "+HELLENIC_REPUBLIC_",
@@ -56091,7 +56246,9 @@
             "+SARONIC_GULF_",
             "+GULF_OF_AEGINA_"
         ],
-        "codes": [],
+        "codes": [
+            "[GRC]"
+        ],
         "comments": []
     },
     {
@@ -57199,18 +57356,20 @@
         "comments": []
     },
     {
-        "name": "GREENLAND_  [DNKGRL]",
+        "name": "GREENLAND_",
         "alias": [
             "+GREENLANDER_",
             "+GRONLAND_",
             "+KALAALLIT_NUNAAT_",
             "+THULE_"
         ],
-        "codes": [],
+        "codes": [
+            "[DNKGRL]"
+        ],
         "comments": []
     },
     {
-        "name": "GRENADA_  [GRD]",
+        "name": "GRENADA_",
         "alias": [
             "+GRENADIAN_",
             "+GRENADAN_",
@@ -57219,7 +57378,9 @@
             "+ST._GEORGE'S_",
             "+ST._GEORGES_"
         ],
-        "codes": [],
+        "codes": [
+            "[GRD]"
+        ],
         "comments": []
     },
     {
@@ -57667,7 +57828,7 @@
         "comments": []
     },
     {
-        "name": "GUADELOUPE_  [FRAGLP]",
+        "name": "GUADELOUPE_",
         "alias": [
             "+GUADALOUPE_",
             "+GUADELOPE_",
@@ -57675,22 +57836,26 @@
             "+GUADELOUPIAN_",
             "+GUADELOUPEAN_"
         ],
-        "codes": [],
+        "codes": [
+            "[FRAGLP]"
+        ],
         "comments": []
     },
     {
-        "name": "GUAM_  [USAGUM]",
+        "name": "GUAM_",
         "alias": [
             "+GUAMANIAN_",
             "+GUAHAN_",
             "+US_GU_",
             "+CUAM_"
         ],
-        "codes": [],
+        "codes": [
+            "[USAGUM]"
+        ],
         "comments": []
     },
     {
-        "name": "GUATEMALA_  [GTM]",
+        "name": "GUATEMALA_",
         "alias": [
             "+GUATEMALAN_",
             "+GUATELMALA_",
@@ -57699,7 +57864,9 @@
             "+GUATEMALA_CITY_",
             "+FUEGO_"
         ],
-        "codes": [],
+        "codes": [
+            "[GTM]"
+        ],
         "comments": []
     },
     {
@@ -58548,7 +58715,7 @@
         "comments": []
     },
     {
-        "name": "GUERNSEY_  [GGY]",
+        "name": "GUERNSEY_",
         "alias": [
             "+GUERNS_",
             "+GURNS_",
@@ -58557,11 +58724,13 @@
             "+GUENSEY_",
             "+GUERNESEY_"
         ],
-        "codes": [],
+        "codes": [
+            "[GGY]"
+        ],
         "comments": []
     },
     {
-        "name": "GUINEA_  [GIN]",
+        "name": "GUINEA_",
         "alias": [
             "+GUINEAN_",
             "+RIVIERES_DU_SUD_",
@@ -58569,7 +58738,9 @@
             "+CONAKRY_",
             "+KONAKRI_"
         ],
-        "codes": [],
+        "codes": [
+            "[GIN]"
+        ],
         "comments": []
     },
     {
@@ -61001,7 +61172,7 @@
         "comments": []
     },
     {
-        "name": "GUINEA_BISSAU  [GNB]",
+        "name": "GUINEA_BISSAU",
         "alias": [
             "+GUINEA_BISSAUAN_",
             "+GUINE_BISSAU_",
@@ -61012,7 +61183,9 @@
             "+GUINEA_BISS._",
             "+BISSAU_"
         ],
-        "codes": [],
+        "codes": [
+            "[GNB]"
+        ],
         "comments": []
     },
     {
@@ -61207,7 +61380,7 @@
         "comments": []
     },
     {
-        "name": "GUYANA_  [GUY]",
+        "name": "GUYANA_",
         "alias": [
             "+GUYANESE_",
             "+GUYANNA_",
@@ -61215,7 +61388,9 @@
             "+STABROEK_",
             "+DEMERARA_"
         ],
-        "codes": [],
+        "codes": [
+            "[GUY]"
+        ],
         "comments": []
     },
     {
@@ -61586,12 +61761,14 @@
         "comments": []
     },
     {
-        "name": "HAITI_  [HTI]",
+        "name": "HAITI_",
         "alias": [
             "+HAITIAN_",
             "+PORT_AU_PRINCE_"
         ],
-        "codes": [],
+        "codes": [
+            "[HTI]"
+        ],
         "comments": []
     },
     {
@@ -62636,14 +62813,16 @@
         "comments": []
     },
     {
-        "name": "HONDURAS_  [HND]",
+        "name": "HONDURAS_",
         "alias": [
             "+HONDURAN_",
             "+HONDORAS_",
             "+TEGUCIGALPA_",
             "+SAN_PEDRO_SULA_"
         ],
-        "codes": [],
+        "codes": [
+            "[HND]"
+        ],
         "comments": []
     },
     {
@@ -63432,7 +63611,7 @@
         "comments": []
     },
     {
-        "name": "HONG_KONG  [HKG]",
+        "name": "HONG_KONG",
         "alias": [
             "+HONG_KONGER_",
             "+HONGKONG_",
@@ -63453,7 +63632,9 @@
             "+HIDDEN_PIRATE_ISLAND_",
             "+HONK_KONG_"
         ],
-        "codes": [],
+        "codes": [
+            "[HKG]"
+        ],
         "comments": []
     },
     {
@@ -63566,7 +63747,7 @@
         "comments": []
     },
     {
-        "name": "HUNGARY_  [HUN]",
+        "name": "HUNGARY_",
         "alias": [
             "+HUNGARIAN_",
             "+MAGYARORSZAG_",
@@ -63585,7 +63766,9 @@
             "+LAKE_BALATON_",
             "+PLATTENSEE_"
         ],
-        "codes": [],
+        "codes": [
+            "[HUN]"
+        ],
         "comments": []
     },
     {
@@ -64338,7 +64521,7 @@
         "comments": []
     },
     {
-        "name": "ICELAND_  [ISL]",
+        "name": "ICELAND_",
         "alias": [
             "+ICELANDER_",
             "+ICEALND_",
@@ -64346,7 +64529,9 @@
             "+IJSLAND_",
             "+REYKJAVIK_"
         ],
-        "codes": [],
+        "codes": [
+            "[ISL]"
+        ],
         "comments": []
     },
     {
@@ -64911,7 +65096,7 @@
         "comments": []
     },
     {
-        "name": "INDIA_  [IND]",
+        "name": "INDIA_",
         "alias": [
             "+INDIAN",
             "+REPUBLIC_OF_INDIA",
@@ -65049,13 +65234,17 @@
             "+GOA",
             "+GURGAON"
         ],
-        "codes": [],
+        "codes": [
+            "[IND]"
+        ],
         "comments": []
     },
     {
-        "name": "INDIAN_OCEAN  [---]",
+        "name": "INDIAN_OCEAN",
         "alias": [],
-        "codes": [],
+        "codes": [
+            "[---]"
+        ],
         "comments": []
     },
     {
@@ -66945,7 +67134,7 @@
         "comments": []
     },
     {
-        "name": "INDONESIA_  [IDN]",
+        "name": "INDONESIA_",
         "alias": [
             "+INDONESIAN_",
             "+INDONISIA_",
@@ -66994,7 +67183,9 @@
             "+KRAKATAO_",
             "+KRAKATOA_"
         ],
-        "codes": [],
+        "codes": [
+            "[IDN]"
+        ],
         "comments": [
             "+WEST_PAPUA#_VERY_IFFY_"
         ]
@@ -68033,7 +68224,7 @@
         "comments": []
     },
     {
-        "name": "IRAN_  [IRN]",
+        "name": "IRAN_",
         "alias": [
             "+IRANIAN",
             "+ISLAMIC_REPUBLIC_OF_IRAN",
@@ -68065,7 +68256,9 @@
             "+DEMAVEND_",
             "+SAQQEZ"
         ],
-        "codes": [],
+        "codes": [
+            "[IRN]"
+        ],
         "comments": []
     },
     {
@@ -71517,7 +71710,7 @@
         "comments": []
     },
     {
-        "name": "IRELAND_  [IRL]",
+        "name": "IRELAND_",
         "alias": [
             "+EIRE_",
             "+IRISH_",
@@ -71531,7 +71724,9 @@
             "+TARA_",
             "+WATERFORD_"
         ],
-        "codes": [],
+        "codes": [
+            "[IRL]"
+        ],
         "comments": []
     },
     {
@@ -71959,7 +72154,7 @@
         "comments": []
     },
     {
-        "name": "ISLE_OF_MAN_  [GBRIMY]",
+        "name": "ISLE_OF_MAN_",
         "alias": [
             "+MANX_",
             "+ISLAND_OF_MAN_",
@@ -71969,7 +72164,9 @@
             "+MAN_ISLAND_",
             "+MONAPIA_"
         ],
-        "codes": [],
+        "codes": [
+            "[GBRIMY]"
+        ],
         "comments": []
     },
     {
@@ -72113,7 +72310,7 @@
         "comments": []
     },
     {
-        "name": "ISRAEL_  [ISR]",
+        "name": "ISRAEL_",
         "alias": [
             "+ISRAELI",
             "+ISRAELIS",
@@ -72156,7 +72353,9 @@
             "+NEGEV_DESERT_",
             "+MOUNT_CARMEL_"
         ],
-        "codes": [],
+        "codes": [
+            "[ISR]"
+        ],
         "comments": []
     },
     {
@@ -73194,7 +73393,7 @@
         "comments": []
     },
     {
-        "name": "ITALY_  [ITA]",
+        "name": "ITALY_",
         "alias": [
             "+ITALIAN_",
             "+YITALIA_",
@@ -73270,7 +73469,9 @@
             "+TIROL_",
             "+RIVIERA_"
         ],
-        "codes": [],
+        "codes": [
+            "[ITA]"
+        ],
         "comments": []
     },
     {
@@ -74156,7 +74357,7 @@
         "comments": []
     },
     {
-        "name": "JAMAICA_  [JAM]",
+        "name": "JAMAICA_",
         "alias": [
             "+JAMAICAN_",
             "+JAMICA_",
@@ -74168,7 +74369,9 @@
             "+KINGSTON_",
             "+MONTEGO_BAY_"
         ],
-        "codes": [],
+        "codes": [
+            "[JAM]"
+        ],
         "comments": []
     },
     {
@@ -74670,7 +74873,7 @@
         "comments": []
     },
     {
-        "name": "JAPAN_  [JPN]",
+        "name": "JAPAN_",
         "alias": [
             "+JAPANESE_",
             "+NIHON_",
@@ -74760,7 +74963,9 @@
             "+OKINAWA_",
             "+YEZO_"
         ],
-        "codes": [],
+        "codes": [
+            "[JPN]"
+        ],
         "comments": []
     },
     {
@@ -76137,7 +76342,7 @@
         "comments": []
     },
     {
-        "name": "JORDAN_  [JOR]",
+        "name": "JORDAN_",
         "alias": [
             "+JORDANIAN_",
             "+KINGDOM_OF_THE_JORDAN_",
@@ -76160,7 +76365,9 @@
             "+MAFRAQ",
             "+AL-MAFRAQ"
         ],
-        "codes": [],
+        "codes": [
+            "[JOR]"
+        ],
         "comments": []
     },
     {
@@ -78539,7 +78746,7 @@
         "comments": []
     },
     {
-        "name": "KENYA_  [KEN]",
+        "name": "KENYA_",
         "alias": [
             "+KENYAN_",
             "+KENIA_",
@@ -78549,7 +78756,9 @@
             "+MOMBASA_",
             "+NAKURU_"
         ],
-        "codes": [],
+        "codes": [
+            "[KEN]"
+        ],
         "comments": []
     },
     {
@@ -79356,14 +79565,16 @@
         "comments": []
     },
     {
-        "name": "KINAKUTA_  [KNT]",
+        "name": "KINAKUTA_",
         "alias": [
             "+KINAKUTAN_",
             "+TRUST_TERRITORY_OF_KINAKUTA_",
             "+NATUKALI_",
             "+MOLOKEAKALI_"
         ],
-        "codes": [],
+        "codes": [
+            "[KNT]"
+        ],
         "comments": []
     },
     {
@@ -79426,7 +79637,7 @@
         "comments": []
     },
     {
-        "name": "KIRIBATI_  [KIR]",
+        "name": "KIRIBATI_",
         "alias": [
             "+I-KIRIBATI_",
             "+KIRIBATIY_",
@@ -79441,7 +79652,9 @@
             "+TARAWA_",
             "+GILBERT_ISLANDS_"
         ],
-        "codes": [],
+        "codes": [
+            "[KIR]"
+        ],
         "comments": []
     },
     {
@@ -82338,7 +82551,7 @@
         "comments": []
     },
     {
-        "name": "LAOS_  [LAO]",
+        "name": "LAOS_",
         "alias": [
             "+LAOTIAN_",
             "+LAO_PDR_",
@@ -82361,7 +82574,9 @@
             "+XEKONG_",
             "+XIANGKHOANG_"
         ],
-        "codes": [],
+        "codes": [
+            "[LAO]"
+        ],
         "comments": []
     },
     {
@@ -83679,7 +83894,7 @@
         "comments": []
     },
     {
-        "name": "LEBANON_  [LBN]",
+        "name": "LEBANON_",
         "alias": [
             "+LEBANESE_",
             "+LUBNANIYAH_",
@@ -83704,7 +83919,9 @@
             "+TYRE_",
             "+BYBLOS_"
         ],
-        "codes": [],
+        "codes": [
+            "[LBN]"
+        ],
         "comments": []
     },
     {
@@ -84886,7 +85103,7 @@
         "comments": []
     },
     {
-        "name": "LESOTHO_  [LSO]",
+        "name": "LESOTHO_",
         "alias": [
             "+MOSOTHO_",
             "+BASOTHO_",
@@ -84896,7 +85113,9 @@
             "+LESHOTO_",
             "+MASERU_"
         ],
-        "codes": [],
+        "codes": [
+            "[LSO]"
+        ],
         "comments": []
     },
     {
@@ -85358,12 +85577,14 @@
         "comments": []
     },
     {
-        "name": "LIBERIA_  [LBR]",
+        "name": "LIBERIA_",
         "alias": [
             "+LIBERIAN_",
             "+MONROVIA_"
         ],
-        "codes": [],
+        "codes": [
+            "[LBR]"
+        ],
         "comments": []
     },
     {
@@ -86233,7 +86454,7 @@
         "comments": []
     },
     {
-        "name": "LIBYA_  [LBY]",
+        "name": "LIBYA_",
         "alias": [
             "+LIBYAN_",
             "+LYBIA_",
@@ -86248,7 +86469,9 @@
             "+BENGHAZI_",
             "+MISRATA"
         ],
-        "codes": [],
+        "codes": [
+            "[LBY]"
+        ],
         "comments": []
     },
     {
@@ -86868,7 +87091,7 @@
         "comments": []
     },
     {
-        "name": "LIECHTENSTEIN_  [LIE]",
+        "name": "LIECHTENSTEIN_",
         "alias": [
             "+LIECHTENSTEINER_",
             "+LEICHTENSTEIN_",
@@ -86884,7 +87107,9 @@
             "+LICHTENSTEIN_",
             "+VADUZ_"
         ],
-        "codes": [],
+        "codes": [
+            "[LIE]"
+        ],
         "comments": []
     },
     {
@@ -87717,7 +87942,7 @@
         "comments": []
     },
     {
-        "name": "LUXEMBOURG_  [LUX]",
+        "name": "LUXEMBOURG_",
         "alias": [
             "+LUXEMBOURGER",
             "+LUXEMBURG_",
@@ -87731,7 +87956,9 @@
             "+LUSSEMBURGO_",
             "+LUXEMBOURG-VILLE_"
         ],
-        "codes": [],
+        "codes": [
+            "[LUX]"
+        ],
         "comments": []
     },
     {
@@ -88845,7 +89072,7 @@
         "comments": []
     },
     {
-        "name": "MADAGASKAR_  [MDG]",
+        "name": "MADAGASKAR_",
         "alias": [
             "+MALAGASY_",
             "+MADAGASCAR_",
@@ -88882,7 +89109,9 @@
             "+TOAMASINA_",
             "+TOLIARA_"
         ],
-        "codes": [],
+        "codes": [
+            "[MDG]"
+        ],
         "comments": []
     },
     {
@@ -89991,7 +90220,7 @@
         "comments": []
     },
     {
-        "name": "MALAWI_  [MWI]",
+        "name": "MALAWI_",
         "alias": [
             "+MALAWIAN_",
             "+NYASSALAND_",
@@ -90000,7 +90229,9 @@
             "+BLANTYRE_",
             "+ZOMBA_"
         ],
-        "codes": [],
+        "codes": [
+            "[MWI]"
+        ],
         "comments": []
     },
     {
@@ -90998,7 +91229,7 @@
         "comments": []
     },
     {
-        "name": "MALAYSIA_  [MYS]",
+        "name": "MALAYSIA_",
         "alias": [
             "+MALAYSIAN",
             "+M'SIA_",
@@ -91104,7 +91335,9 @@
             "+PULAU_RUSA_",
             "+PULAU_WAN_MAN_"
         ],
-        "codes": [],
+        "codes": [
+            "[MYS]"
+        ],
         "comments": []
     },
     {
@@ -92000,7 +92233,7 @@
         "comments": []
     },
     {
-        "name": "MALDIVES_  [MDV]",
+        "name": "MALDIVES_",
         "alias": [
             "+MALDIVAN_",
             "+MALDIVE_",
@@ -92009,7 +92242,9 @@
             "+DEHEVI_JUMHURIYYA_",
             "+MALE_"
         ],
-        "codes": [],
+        "codes": [
+            "[MDV]"
+        ],
         "comments": []
     },
     {
@@ -92677,13 +92912,15 @@
         "comments": []
     },
     {
-        "name": "MALI_  [MLI]",
+        "name": "MALI_",
         "alias": [
             "+MALIAN_",
             "+BAMAKO_",
             "+TIMBUCKTU_"
         ],
-        "codes": [],
+        "codes": [
+            "[MLI]"
+        ],
         "comments": []
     },
     {
@@ -93376,13 +93613,15 @@
         "comments": []
     },
     {
-        "name": "MALTA_  [MLT]",
+        "name": "MALTA_",
         "alias": [
             "+MALTESE_",
             "+VALLETTA_",
             "+VALETTA_"
         ],
-        "codes": [],
+        "codes": [
+            "[MLT]"
+        ],
         "comments": []
     },
     {
@@ -93659,13 +93898,15 @@
         "comments": []
     },
     {
-        "name": "MARSHALL_ISLANDS_  [MHL]",
+        "name": "MARSHALL_ISLANDS_",
         "alias": [
             "+MARSHALLESE_",
             "+MARSHAL_ISLANDS_",
             "+MAJURO_"
         ],
-        "codes": [],
+        "codes": [
+            "[MHL]"
+        ],
         "comments": []
     },
     {
@@ -94036,16 +94277,18 @@
         "comments": []
     },
     {
-        "name": "MARTINIQUE_  [FRAMTQ]",
+        "name": "MARTINIQUE_",
         "alias": [
             "+MARTINIQUAIS_",
             "+MARTINIQUAN_"
         ],
-        "codes": [],
+        "codes": [
+            "[FRAMTQ]"
+        ],
         "comments": []
     },
     {
-        "name": "MAURITANIA_  [MRT]",
+        "name": "MAURITANIA_",
         "alias": [
             "+MAURITANIAN_",
             "+MURITANIYAH_",
@@ -94054,11 +94297,13 @@
             "+BOUMDEIT_",
             "+NOUAKCHOTT_"
         ],
-        "codes": [],
+        "codes": [
+            "[MRT]"
+        ],
         "comments": []
     },
     {
-        "name": "MAURITIUS_  [MUS]",
+        "name": "MAURITIUS_",
         "alias": [
             "+MAURITIAN_",
             "+MAURITUS_",
@@ -94075,7 +94320,9 @@
             "+RIVIERE_DU_REMPART_",
             "+SAVANNE_"
         ],
-        "codes": [],
+        "codes": [
+            "[MUS]"
+        ],
         "comments": []
     },
     {
@@ -94861,7 +95108,7 @@
         "comments": []
     },
     {
-        "name": "MAYOTTE_  [FRA]",
+        "name": "MAYOTTE_",
         "alias": [
             "+MAHORAIS_",
             "+MAHORAN_",
@@ -94869,11 +95116,13 @@
             "+MAWUTI_",
             "+MAYOTTA_"
         ],
-        "codes": [],
+        "codes": [
+            "[FRA]"
+        ],
         "comments": []
     },
     {
-        "name": "MEXICO_  [MEX]",
+        "name": "MEXICO_",
         "alias": [
             "+MEXICAN_",
             "+UNITED_STATES_OF_MEXICO_",
@@ -94945,7 +95194,9 @@
             "+COAHUILA_",
             "+QUINTANA_ROO_"
         ],
-        "codes": [],
+        "codes": [
+            "[MEX]"
+        ],
         "comments": []
     },
     {
@@ -95664,14 +95915,16 @@
         "comments": []
     },
     {
-        "name": "MICRONESIA_  [FSM]",
+        "name": "MICRONESIA_",
         "alias": [
             "+MICRONESIAN_",
             "+MIKRONESIA_",
             "+FEDERATED_STATES_OF_MICRONESIA_",
             "+PALIKIR_"
         ],
-        "codes": [],
+        "codes": [
+            "[FSM]"
+        ],
         "comments": []
     },
     {
@@ -96660,7 +96913,7 @@
         "comments": []
     },
     {
-        "name": "MONACO_  [MCO]",
+        "name": "MONACO_",
         "alias": [
             "+MONEGASQUE_",
             "+MONACAN_",
@@ -96671,7 +96924,9 @@
             "+MONACO-VILLE_",
             "+MONTE_CARLO_"
         ],
-        "codes": [],
+        "codes": [
+            "[MCO]"
+        ],
         "comments": []
     },
     {
@@ -96906,7 +97161,7 @@
         "comments": []
     },
     {
-        "name": "MONGOLIA_  [MNG]",
+        "name": "MONGOLIA_",
         "alias": [
             "+MONGOLIAN_",
             "+MONGOL_",
@@ -96938,7 +97193,9 @@
             "+SUKHBAATAR_",
             "+ZAVKHAN_"
         ],
-        "codes": [],
+        "codes": [
+            "[MNG]"
+        ],
         "comments": []
     },
     {
@@ -97852,12 +98109,13 @@
         "comments": []
     },
     {
-        "name": "MONTENEGRO_ [MNE]",
+        "name": "MONTENEGRO_",
         "alias": [
             "+MONTENEGRIN_",
             "+PODGORICA_"
         ],
         "codes": [
+            "[MNE]",
             "[YUGMNE <920427]",
             "[SCGMNE 920428-060603]",
             "[MNE >060603]"
@@ -97889,16 +98147,18 @@
         "comments": []
     },
     {
-        "name": "MONTSERRAT_  [GBRMSR]",
+        "name": "MONTSERRAT_",
         "alias": [
             "+MONTSERRATIAN_",
             "+MONTSERAT_"
         ],
-        "codes": [],
+        "codes": [
+            "[GBRMSR]"
+        ],
         "comments": []
     },
     {
-        "name": "MOROCCO_  [MAR]",
+        "name": "MOROCCO_",
         "alias": [
             "+MOROCCAN_",
             "+MORROCCO_",
@@ -97924,7 +98184,9 @@
             "+ABILA_",
             "+ABYLA_"
         ],
-        "codes": [],
+        "codes": [
+            "[MAR]"
+        ],
         "comments": []
     },
     {
@@ -98859,7 +99121,7 @@
         "comments": []
     },
     {
-        "name": "MOZAMBIQUE_  [MOZ]",
+        "name": "MOZAMBIQUE_",
         "alias": [
             "+MOZAMBICAN_",
             "+MOSAMBIQUE_",
@@ -98869,7 +99131,9 @@
             "+MAPUTO_",
             "+BEIRA_"
         ],
-        "codes": [],
+        "codes": [
+            "[MOZ]"
+        ],
         "comments": []
     },
     {
@@ -99702,7 +99966,7 @@
         "comments": []
     },
     {
-        "name": "MYANMAR_  [MMR]",
+        "name": "MYANMAR_",
         "alias": [
             "+MYANMARESE_",
             "+BURMESE_",
@@ -99730,7 +99994,9 @@
             "+SAGAING_",
             "+TANINTHARYI_"
         ],
-        "codes": [],
+        "codes": [
+            "[MMR]"
+        ],
         "comments": []
     },
     {
@@ -100742,13 +101008,15 @@
         "comments": []
     },
     {
-        "name": "NAMIBIA_  [NAM]",
+        "name": "NAMIBIA_",
         "alias": [
             "+NAMIBIAN_",
             "+WINDHOEK_",
             "+NAMIB_DESERT_"
         ],
-        "codes": [],
+        "codes": [
+            "[NAM]"
+        ],
         "comments": []
     },
     {
@@ -101186,13 +101454,15 @@
         "comments": []
     },
     {
-        "name": "NAURU_  [NRU]",
+        "name": "NAURU_",
         "alias": [
             "+NAURUAN_",
             "+NAOERO_",
             "+YAREN_DISTRICT_"
         ],
-        "codes": [],
+        "codes": [
+            "[NRU]"
+        ],
         "comments": []
     },
     {
@@ -101480,7 +101750,7 @@
         "comments": []
     },
     {
-        "name": "NEPAL_  [NPL]",
+        "name": "NEPAL_",
         "alias": [
             "+NEPALESE_",
             "+NEPAUL_",
@@ -101574,7 +101844,9 @@
             "+DHAULAGIRI_",
             "+MAKALU_"
         ],
-        "codes": [],
+        "codes": [
+            "[NPL]"
+        ],
         "comments": []
     },
     {
@@ -103003,7 +103275,7 @@
         "comments": []
     },
     {
-        "name": "NETHERLANDS_  [NLD]",
+        "name": "NETHERLANDS_",
         "alias": [
             "+DUTCH_",
             "+DUTCHMAN_",
@@ -103038,7 +103310,9 @@
             "+IJSSEL_RIVER_",
             "+IJSSELMEER_"
         ],
-        "codes": [],
+        "codes": [
+            "[NLD]"
+        ],
         "comments": []
     },
     {
@@ -103951,7 +104225,7 @@
         "comments": []
     },
     {
-        "name": "NETHERLANDS_ANTILLES_  [NLDANT]",
+        "name": "NETHERLANDS_ANTILLES_",
         "alias": [
             "+NETHERLANDS_ANTILLEAN_",
             "+DUTCH_WEST_INDIES_",
@@ -103965,11 +104239,13 @@
             "+ANTILLEN_",
             "+NETHERLAND_WEST_INDIES_"
         ],
-        "codes": [],
+        "codes": [
+            "[NLDANT]"
+        ],
         "comments": []
     },
     {
-        "name": "NEW_CALEDONIA_  [FRANCL]",
+        "name": "NEW_CALEDONIA_",
         "alias": [
             "+NEW_CALEDONIAN_",
             "+KANAKY_",
@@ -103981,11 +104257,13 @@
             "+NOVA_CALEDONIA_",
             "+COLLECTIVITE_SUI_GENERIS_"
         ],
-        "codes": [],
+        "codes": [
+            "[FRANCL]"
+        ],
         "comments": []
     },
     {
-        "name": "NEW_ZEALAND_  [NZL]",
+        "name": "NEW_ZEALAND_",
         "alias": [
             "+ZEALAND # hacky fix for CoreNLP weirdness",
             "+NEW_ZEALANDER_",
@@ -104026,7 +104304,9 @@
             "+OTAGO_",
             "+COOK_STRAIT_"
         ],
-        "codes": [],
+        "codes": [
+            "[NZL]"
+        ],
         "comments": [
             "+ZEALAND # hacky fix for CoreNLP weirdness"
         ]
@@ -104949,14 +105229,16 @@
         "comments": []
     },
     {
-        "name": "NICARAGUA_  [NIC]",
+        "name": "NICARAGUA_",
         "alias": [
             "+NICARAGUAN_",
             "+NICARUGUA_",
             "+NICURAGUA_",
             "+MANAGUA_"
         ],
-        "codes": [],
+        "codes": [
+            "[NIC]"
+        ],
         "comments": []
     },
     {
@@ -105499,7 +105781,7 @@
         "comments": []
     },
     {
-        "name": "NIGER_  [NER]",
+        "name": "NIGER_",
         "alias": [
             "+NIGERIEN_",
             "+NIAMEY_",
@@ -105509,7 +105791,9 @@
             "+MARADI",
             "+TAHOUA"
         ],
-        "codes": [],
+        "codes": [
+            "[NER]"
+        ],
         "comments": []
     },
     {
@@ -106362,7 +106646,7 @@
         "comments": []
     },
     {
-        "name": "NIGERIA_  [NGA]",
+        "name": "NIGERIA_",
         "alias": [
             "+NIGERIAN_",
             "+NAIJA_",
@@ -106391,7 +106675,9 @@
             "+YERWA-MAIDUGURI_",
             "+ZARIA_"
         ],
-        "codes": [],
+        "codes": [
+            "[NGA]"
+        ],
         "comments": []
     },
     {
@@ -108291,16 +108577,18 @@
         "comments": []
     },
     {
-        "name": "NIUE_  [NZLNIU]",
+        "name": "NIUE_",
         "alias": [
             "+NIUEAN_",
             "+NUIE_"
         ],
-        "codes": [],
+        "codes": [
+            "[NZLNIU]"
+        ],
         "comments": []
     },
     {
-        "name": "NORTH_KOREA_  [PRK]",
+        "name": "NORTH_KOREA_",
         "alias": [
             "+NORTH_KOREAN",
             "+KOREA,_NORTH_",
@@ -108353,7 +108641,9 @@
             "+YEONGNAM_",
             "+YEONGSEO_"
         ],
-        "codes": [],
+        "codes": [
+            "[PRK]"
+        ],
         "comments": []
     },
     {
@@ -109932,7 +110222,7 @@
         ]
     },
     {
-        "name": "KOSOVO [KSV] # using World Bank code-No ISO",
+        "name": "KOSOVO",
         "alias": [
             "+KOSOVAR",
             "+KOSOVA",
@@ -109947,6 +110237,7 @@
             "+PRISTINA"
         ],
         "codes": [
+            "[KSV] # using World Bank code-No ISO",
             "[YUGKSV <920428]",
             "[FRYKSV 920428-990610]",
             "[KSVUNO 990610-080217]",
@@ -110091,7 +110382,7 @@
         "comments": []
     },
     {
-        "name": "NORWAY_  [NOR]",
+        "name": "NORWAY_",
         "alias": [
             "+NORWEGIAN_",
             "+NOREG_",
@@ -110115,7 +110406,9 @@
             "+TRONDHEIM_FJORD_",
             "+TRONDHEIM_FIORD_"
         ],
-        "codes": [],
+        "codes": [
+            "[NOR]"
+        ],
         "comments": []
     },
     {
@@ -110727,7 +111020,7 @@
         "comments": []
     },
     {
-        "name": "OMAN_  [OMN]",
+        "name": "OMAN_",
         "alias": [
             "+OMANI_",
             "+OMANIS_",
@@ -110736,7 +111029,9 @@
             "+MUSCAT_",
             "+MASQAT_"
         ],
-        "codes": [],
+        "codes": [
+            "[OMN]"
+        ],
         "comments": []
     },
     {
@@ -111355,7 +111650,7 @@
         "comments": []
     },
     {
-        "name": "PAKISTAN_  [PAK]",
+        "name": "PAKISTAN_",
         "alias": [
             "+PAKISTANI_",
             "+BAKISTAN_",
@@ -111390,7 +111685,9 @@
             "+BALOCHISTAN",
             "+QUETTA"
         ],
-        "codes": [],
+        "codes": [
+            "[PAK]"
+        ],
         "comments": []
     },
     {
@@ -112832,7 +113129,7 @@
         "comments": []
     },
     {
-        "name": "PALAU_  [PLW]",
+        "name": "PALAU_",
         "alias": [
             "+PALAUAN_",
             "+PALAUS_",
@@ -112840,7 +113137,9 @@
             "+PELEW_",
             "+MELEKEOK_"
         ],
-        "codes": [],
+        "codes": [
+            "[PLW]"
+        ],
         "comments": []
     },
     {
@@ -113079,7 +113378,7 @@
         "comments": []
     },
     {
-        "name": "PALESTINE_  [PSE]",
+        "name": "PALESTINE_",
         "alias": [
             "+PALESTINIAN",
             "+PALESTINIANS",
@@ -113103,7 +113402,9 @@
             "+HEBRON",
             "+FATAH"
         ],
-        "codes": [],
+        "codes": [
+            "[PSE]"
+        ],
         "comments": []
     },
     {
@@ -113199,7 +113500,7 @@
         "comments": []
     },
     {
-        "name": "GAZA_ [PSEGZA]",
+        "name": "GAZA_",
         "alias": [
             "+GAZAN_",
             "+GHAZZAH_",
@@ -113207,16 +113508,20 @@
             "+GAZA_CITY",
             "+RAFAH"
         ],
-        "codes": [],
+        "codes": [
+            "[PSEGZA]"
+        ],
         "comments": []
     },
     {
-        "name": "PANAMA_  [PAN]",
+        "name": "PANAMA_",
         "alias": [
             "+PANAMANIAN_",
             "+PANAMA_CITY_"
         ],
-        "codes": [],
+        "codes": [
+            "[PAN]"
+        ],
         "comments": []
     },
     {
@@ -113939,7 +114244,7 @@
         "comments": []
     },
     {
-        "name": "PAPUA_NEW_GUINEA_  [PNG]",
+        "name": "PAPUA_NEW_GUINEA_",
         "alias": [
             "+PAPUA_NEW_GUINEAN_",
             "+PAPUANEWGUINEA_",
@@ -113968,7 +114273,9 @@
             "+BOUGAINVILLE_",
             "+BISMARK_ARCHIPELAGO_"
         ],
-        "codes": [],
+        "codes": [
+            "[PNG]"
+        ],
         "comments": []
     },
     {
@@ -114901,7 +115208,7 @@
         "comments": []
     },
     {
-        "name": "PARAGUAY_  [PRY]",
+        "name": "PARAGUAY_",
         "alias": [
             "+PARAGUAYAN_",
             "+PARAGAUY_",
@@ -114909,7 +115216,9 @@
             "+PARAGUAI_",
             "+ASUNCION_"
         ],
-        "codes": [],
+        "codes": [
+            "[PRY]"
+        ],
         "comments": []
     },
     {
@@ -115627,7 +115936,7 @@
         "comments": []
     },
     {
-        "name": "PERU_  [PER]",
+        "name": "PERU_",
         "alias": [
             "+PERUVIAN_",
             "+PIRUW_",
@@ -115643,7 +115952,9 @@
             "+HUASCARAN_",
             "+YERUPAJA_"
         ],
-        "codes": [],
+        "codes": [
+            "[PER]"
+        ],
         "comments": []
     },
     {
@@ -116770,7 +117081,7 @@
         "comments": []
     },
     {
-        "name": "PHILIPPINES_  [PHL]",
+        "name": "PHILIPPINES_",
         "alias": [
             "+FILIPINO_",
             "+FILIPINA_",
@@ -116813,7 +117124,9 @@
             "+MALACANANG",
             "+LEYTE"
         ],
-        "codes": [],
+        "codes": [
+            "[PHL]"
+        ],
         "comments": []
     },
     {
@@ -117768,15 +118081,17 @@
         "comments": []
     },
     {
-        "name": "PITCAIRN_  [GBRPCN]",
+        "name": "PITCAIRN_",
         "alias": [
             "+PITCAIRN_ISLANDER_"
         ],
-        "codes": [],
+        "codes": [
+            "[GBRPCN]"
+        ],
         "comments": []
     },
     {
-        "name": "POLAND_  [POL]",
+        "name": "POLAND_",
         "alias": [
             "+POLISH_",
             "+POLE_",
@@ -117806,7 +118121,9 @@
             "+BRESLAU_",
             "+ZABRZE_"
         ],
-        "codes": [],
+        "codes": [
+            "[POL]"
+        ],
         "comments": []
     },
     {
@@ -118977,7 +119294,7 @@
         "comments": []
     },
     {
-        "name": "PORTUGAL_  [PRT]",
+        "name": "PORTUGAL_",
         "alias": [
             "+PORTUGUESE_",
             "+PORTUGUAL_",
@@ -119024,7 +119341,9 @@
             "+MADEIRA_ISLANDS_",
             "+MADEIRAS_"
         ],
-        "codes": [],
+        "codes": [
+            "[PRT]"
+        ],
         "comments": []
     },
     {
@@ -119749,7 +120068,7 @@
         "comments": []
     },
     {
-        "name": "PUERTO_RICO_  [USAPRI]",
+        "name": "PUERTO_RICO_",
         "alias": [
             "+PUERTO_RICAN_",
             "+PUETRO_RICO_",
@@ -119781,7 +120100,9 @@
             "+CULEBRA_",
             "+VIEQUES_"
         ],
-        "codes": [],
+        "codes": [
+            "[USAPRI]"
+        ],
         "comments": []
     },
     {
@@ -119825,7 +120146,7 @@
         "comments": []
     },
     {
-        "name": "QATAR_  [QAT]",
+        "name": "QATAR_",
         "alias": [
             "+QATARI_",
             "+QUATAR_",
@@ -119834,7 +120155,9 @@
             "+BIDA_",
             "+EL_BEDA_"
         ],
-        "codes": [],
+        "codes": [
+            "[QAT]"
+        ],
         "comments": []
     },
     {
@@ -120336,7 +120659,7 @@
         "comments": []
     },
     {
-        "name": "REPUBLIC_OF_SERBIAN_KRAJINA_ [KRJUNR 911219-951112]",
+        "name": "REPUBLIC_OF_SERBIAN_KRAJINA_",
         "alias": [
             "+KRAJINA_",
             "+SERBIAN_KRAJINA_",
@@ -120345,11 +120668,13 @@
             "+REPUBLIKA_SRPSKA_KRAJINA_",
             "+KNIN_"
         ],
-        "codes": [],
+        "codes": [
+            "[KRJUNR 911219-951112]"
+        ],
         "comments": []
     },
     {
-        "name": "REPUBLIC_OF_SOUTH_AFRICA_  [ZAF]",
+        "name": "REPUBLIC_OF_SOUTH_AFRICA_",
         "alias": [
             "+SOUTH_AFRICA",
             "+SOUTH_AFRICAN_",
@@ -120389,7 +120714,9 @@
             "+CAPE_COLONY_",
             "+SOWETO_"
         ],
-        "codes": [],
+        "codes": [
+            "[ZAF]"
+        ],
         "comments": []
     },
     {
@@ -121259,7 +121586,7 @@
         "comments": []
     },
     {
-        "name": "ROMANIA_  [ROU]",
+        "name": "ROMANIA_",
         "alias": [
             "+ROMANIAN_",
             "+RUMANIA_",
@@ -121277,7 +121604,9 @@
             "+CONSTANTINA_",
             "+TRANSYLVANIAN_ALPS_"
         ],
-        "codes": [],
+        "codes": [
+            "[ROU]"
+        ],
         "comments": []
     },
     {
@@ -121548,7 +121877,7 @@
         ]
     },
     {
-        "name": "RUSSIAN_FEDERATION_  [RUS]",
+        "name": "RUSSIAN_FEDERATION_",
         "alias": [
             "+RUSSIAN",
             "+RUSSIA_",
@@ -121697,7 +122026,9 @@
             "+VOLKHOV_RIVER_",
             "+SOCHI"
         ],
-        "codes": [],
+        "codes": [
+            "[RUS]"
+        ],
         "comments": []
     },
     {
@@ -122947,7 +123278,7 @@
         "comments": []
     },
     {
-        "name": "RWANDA_  [RWA]",
+        "name": "RWANDA_",
         "alias": [
             "+RWANDAN_",
             "+RAWANDA_",
@@ -122961,7 +123292,9 @@
             "+RWANDWA_",
             "+KIGALI_"
         ],
-        "codes": [],
+        "codes": [
+            "[RWA]"
+        ],
         "comments": []
     },
     {
@@ -123743,16 +124076,18 @@
         "comments": []
     },
     {
-        "name": "SAINT_BARTHELEMY_  [FRA]",
+        "name": "SAINT_BARTHELEMY_",
         "alias": [
             "+SAINT_BARTHELEMANS_",
             "+BARTHELEMANS_"
         ],
-        "codes": [],
+        "codes": [
+            "[FRA]"
+        ],
         "comments": []
     },
     {
-        "name": "SAINT_HELENA_  [GBRSHN]",
+        "name": "SAINT_HELENA_",
         "alias": [
             "+SAINT_HELENIAN_",
             "+ST_HELENA_",
@@ -123760,11 +124095,13 @@
             "+ST.HELENA_",
             "+SAINT_HELENIANS_"
         ],
-        "codes": [],
+        "codes": [
+            "[GBRSHN]"
+        ],
         "comments": []
     },
     {
-        "name": "SAINT_LUCIA_  [LCA]",
+        "name": "SAINT_LUCIA_",
         "alias": [
             "+SAINT_LUCIAN_",
             "+ST._LUCIA_",
@@ -123774,7 +124111,9 @@
             "+BANNZIL_KWEYOL_",
             "+CASTRIES_"
         ],
-        "codes": [],
+        "codes": [
+            "[LCA]"
+        ],
         "comments": []
     },
     {
@@ -124090,7 +124429,7 @@
         "comments": []
     },
     {
-        "name": "SAINT_VINCENT_AND_THE_GRENADINES_  [VCT]",
+        "name": "SAINT_VINCENT_AND_THE_GRENADINES_",
         "alias": [
             "+VINCENTIAN_",
             "+SAINT_VINCENT_",
@@ -124100,7 +124439,9 @@
             "+ST.VINCENT_",
             "+KINGSTOWN_"
         ],
-        "codes": [],
+        "codes": [
+            "[VCT]"
+        ],
         "comments": []
     },
     {
@@ -124387,11 +124728,13 @@
         "comments": []
     },
     {
-        "name": "SAMOA_  [WSM]",
+        "name": "SAMOA_",
         "alias": [
             "+APIA_"
         ],
-        "codes": [],
+        "codes": [
+            "[WSM]"
+        ],
         "comments": []
     },
     {
@@ -124782,7 +125125,7 @@
         "comments": []
     },
     {
-        "name": "SAN_MARINO_  [SMR]",
+        "name": "SAN_MARINO_",
         "alias": [
             "+SAN_MARINESE_",
             "+SAMMARINESE_",
@@ -124790,7 +125133,9 @@
             "+CAPITANI_REGGENTI_",
             "+SAINT_MARIN_"
         ],
-        "codes": [],
+        "codes": [
+            "[SMR]"
+        ],
         "comments": []
     },
     {
@@ -125405,7 +125750,7 @@
         "comments": []
     },
     {
-        "name": "SAO_TOME_AND_PRINCIPE_  [STP]",
+        "name": "SAO_TOME_AND_PRINCIPE_",
         "alias": [
             "+SAO_TOMEAN_",
             "+PRINCIPE_",
@@ -125418,7 +125763,9 @@
             "+ST_THOMAS_AND_PRINCE_",
             "+SAO_TOME_"
         ],
-        "codes": [],
+        "codes": [
+            "[STP]"
+        ],
         "comments": []
     },
     {
@@ -125845,7 +126192,7 @@
         "comments": []
     },
     {
-        "name": "SAUDI_ARABIA_  [SAU]",
+        "name": "SAUDI_ARABIA_",
         "alias": [
             "+SAUDI_ARABIAN_",
             "+SAUDI_",
@@ -125881,7 +126228,9 @@
             "+AR_RIMSAL_",
             "+DAHNA_"
         ],
-        "codes": [],
+        "codes": [
+            "[SAU]"
+        ],
         "comments": []
     },
     {
@@ -126506,12 +126855,14 @@
         "comments": []
     },
     {
-        "name": "SENEGAL_  [SEN]",
+        "name": "SENEGAL_",
         "alias": [
             "+SENEGALESE_",
             "+DAKAR_"
         ],
-        "codes": [],
+        "codes": [
+            "[SEN]"
+        ],
         "comments": []
     },
     {
@@ -127535,7 +127886,7 @@
         "comments": []
     },
     {
-        "name": "SERBIA [SRB]",
+        "name": "SERBIA",
         "alias": [
             "+BELGRADE",
             "+SERBIAN",
@@ -127543,6 +127894,7 @@
             "+REPUBLIKA_SRBIJA"
         ],
         "codes": [
+            "[SRB]",
             "[YUGSRB <920427]",
             "[SCGSRB 920428-060605]",
             "[SRB >060605]"
@@ -127573,17 +127925,19 @@
         "comments": []
     },
     {
-        "name": "SERBIA_AND_MONTENEGRO [SCG 920428-060605]",
+        "name": "SERBIA_AND_MONTENEGRO",
         "alias": [
             "+SERBIA_MONTENEGRO",
             "+YUGOSLAV_FEDERAL_REPUBLIC",
             "+SERBIAN_MONTENEGRIN_"
         ],
-        "codes": [],
+        "codes": [
+            "[SCG 920428-060605]"
+        ],
         "comments": []
     },
     {
-        "name": "SEYCHELLES_  [SYC]",
+        "name": "SEYCHELLES_",
         "alias": [
             "+SEYCHELLOIS_",
             "+SEYCHELLE_ISLANDS_",
@@ -127591,7 +127945,9 @@
             "+SEICHELES_",
             "+SECHELLES_"
         ],
-        "codes": [],
+        "codes": [
+            "[SYC]"
+        ],
         "comments": []
     },
     {
@@ -127862,7 +128218,7 @@
         "comments": []
     },
     {
-        "name": "SIERRA_LEONE_  [SLE]",
+        "name": "SIERRA_LEONE_",
         "alias": [
             "+SIERRA_LEONEAN_",
             "+SIERRA_LEOME_",
@@ -127877,7 +128233,9 @@
             "+SIERRA_LEONEON_",
             "+FREETOWN_"
         ],
-        "codes": [],
+        "codes": [
+            "[SLE]"
+        ],
         "comments": []
     },
     {
@@ -128640,7 +128998,7 @@
         "comments": []
     },
     {
-        "name": "SINGAPORE_  [SGP]",
+        "name": "SINGAPORE_",
         "alias": [
             "+SINGAPOREAN_",
             "+CINGKAPPUR_",
@@ -128659,7 +129017,9 @@
             "+MANCHESTER_OF_THE_EAST_",
             "+HSIN_CHIA_P'O_KUNG_HO_KUO_"
         ],
-        "codes": [],
+        "codes": [
+            "[SGP]"
+        ],
         "comments": []
     },
     {
@@ -129140,7 +129500,7 @@
         "comments": []
     },
     {
-        "name": "SLOVENIA_ [SVN]",
+        "name": "SLOVENIA_",
         "alias": [
             "+SLOVENE_",
             "+REPUBLIC_OF_SLOVENIA_",
@@ -129151,6 +129511,7 @@
             "+LJUBLJANA_"
         ],
         "codes": [
+            "[SVN]",
             "[YUGSVN <910625]",
             "[SVNUNR 910625-920115]",
             "[SVN >920115]"
@@ -129170,7 +129531,7 @@
         "comments": []
     },
     {
-        "name": "SLOVAKIA_  [SVK]",
+        "name": "SLOVAKIA_",
         "alias": [
             "+SLOVAKIAN_",
             "+SLOVAK_",
@@ -129185,7 +129546,9 @@
             "+SLOVENSKA_",
             "+BRATISLAVA_"
         ],
-        "codes": [],
+        "codes": [
+            "[SVK]"
+        ],
         "comments": []
     },
     {
@@ -129855,7 +130218,7 @@
         "comments": []
     },
     {
-        "name": "SOLOMON_ISLANDS_  [SLB]",
+        "name": "SOLOMON_ISLANDS_",
         "alias": [
             "+SOLOMON_ISLANDER_",
             "+SOLOMONS_",
@@ -129870,7 +130233,9 @@
             "+RENNELL_AND_BELLONA_",
             "+TEMOTU_"
         ],
-        "codes": [],
+        "codes": [
+            "[SLB]"
+        ],
         "comments": []
     },
     {
@@ -130734,7 +131099,7 @@
         "comments": []
     },
     {
-        "name": "SOMALIA_  [SOM]",
+        "name": "SOMALIA_",
         "alias": [
             "+SOMALI_",
             "+SOMALIAN_",
@@ -130748,7 +131113,9 @@
             "+MUQDISHO_",
             "+MOGADISCIO_"
         ],
-        "codes": [],
+        "codes": [
+            "[SOM]"
+        ],
         "comments": []
     },
     {
@@ -132259,7 +132626,7 @@
         "comments": []
     },
     {
-        "name": "SOUTH_KOREA_  [KOR]",
+        "name": "SOUTH_KOREA_",
         "alias": [
             "+SOUTH_KOREAN_",
             "+S.KOREA",
@@ -132316,7 +132683,9 @@
             "+GANGWON_",
             "+DAEJON_"
         ],
-        "codes": [],
+        "codes": [
+            "[KOR]"
+        ],
         "comments": []
     },
     {
@@ -134675,7 +135044,7 @@
         "comments": []
     },
     {
-        "name": "SPAIN_  [ESP]",
+        "name": "SPAIN_",
         "alias": [
             "+SPANIARD_",
             "+SPANISH_",
@@ -134725,7 +135094,9 @@
             "+SIERRA_NEVADA_",
             "+MELILLA"
         ],
-        "codes": [],
+        "codes": [
+            "[ESP]"
+        ],
         "comments": []
     },
     {
@@ -135388,7 +135759,7 @@
         "comments": []
     },
     {
-        "name": "SRI_LANKA_  [LKA]",
+        "name": "SRI_LANKA_",
         "alias": [
             "+SRI_LANKAN_",
             "+CEYLON_",
@@ -135437,7 +135808,9 @@
             "+ADAM'S_PEAK_",
             "+SAMANALA_"
         ],
-        "codes": [],
+        "codes": [
+            "[LKA]"
+        ],
         "comments": []
     },
     {
@@ -136443,7 +136816,7 @@
         "comments": []
     },
     {
-        "name": "SUDAN_  [SDN]",
+        "name": "SUDAN_",
         "alias": [
             "+SUDANESE_",
             "+AL_KHARTOUM_",
@@ -136457,7 +136830,9 @@
             "+NUBIAN_DESERT_",
             "+AD-DAMAZIN"
         ],
-        "codes": [],
+        "codes": [
+            "[SDN]"
+        ],
         "comments": []
     },
     {
@@ -137800,7 +138175,7 @@
         "comments": []
     },
     {
-        "name": "SURINAME_  [SUR]",
+        "name": "SURINAME_",
         "alias": [
             "+SURINAMER_",
             "+SURINAM_",
@@ -137813,7 +138188,9 @@
             "+SURINAME_RIVER_",
             "+SURINAM_RIVER_"
         ],
-        "codes": [],
+        "codes": [
+            "[SUR]"
+        ],
         "comments": []
     },
     {
@@ -138329,12 +138706,14 @@
         "comments": []
     },
     {
-        "name": "SWAZILAND_  [SWZ]",
+        "name": "SWAZILAND_",
         "alias": [
             "+SWAZI_",
             "+MBABANE_"
         ],
-        "codes": [],
+        "codes": [
+            "[SWZ]"
+        ],
         "comments": []
     },
     {
@@ -138877,7 +139256,7 @@
         "comments": []
     },
     {
-        "name": "SWEDEN_  [SWE]",
+        "name": "SWEDEN_",
         "alias": [
             "+SWEDE_",
             "+SVERIGE_",
@@ -138895,7 +139274,9 @@
             "+LAKE_VANERN_",
             "+VANERN_"
         ],
-        "codes": [],
+        "codes": [
+            "[SWE]"
+        ],
         "comments": []
     },
     {
@@ -139489,7 +139870,7 @@
         "comments": []
     },
     {
-        "name": "SWITZERLAND_  [CHE]",
+        "name": "SWITZERLAND_",
         "alias": [
             "+SWISS_",
             "+SUISSE_",
@@ -139532,7 +139913,9 @@
             "+LAKE_LEMAN_",
             "+WEISSHORN_"
         ],
-        "codes": [],
+        "codes": [
+            "[CHE]"
+        ],
         "comments": []
     },
     {
@@ -139818,7 +140201,7 @@
         "comments": []
     },
     {
-        "name": "SYRIA_  [SYR]",
+        "name": "SYRIA_",
         "alias": [
             "+SYRIAN_",
             "+SURIYAH_",
@@ -139880,7 +140263,9 @@
             "+YABRUD",
             "+GOLAN_HEIGHTS  # de facto vs. de jure...?"
         ],
-        "codes": [],
+        "codes": [
+            "[SYR]"
+        ],
         "comments": [
             "+GOLAN_HEIGHTS  # de facto vs. de jure...?"
         ]
@@ -141371,7 +141756,7 @@
         ]
     },
     {
-        "name": "TAIWAN_  [TWN]",
+        "name": "TAIWAN_",
         "alias": [
             "+TAIWANESE_",
             "+TAI_OAN_",
@@ -141411,7 +141796,9 @@
             "+LIENCHIANG_COUNTY_",
             "+KINMEN_COUNTY_"
         ],
-        "codes": [],
+        "codes": [
+            "[TWN]"
+        ],
         "comments": []
     },
     {
@@ -144236,7 +144623,7 @@
         "comments": []
     },
     {
-        "name": "THAILAND_  [THA]",
+        "name": "THAILAND_",
         "alias": [
             "+THAI_",
             "+SIAM_",
@@ -144320,7 +144707,9 @@
             "+NAN_RIVER_",
             "+PING_RIVER_"
         ],
-        "codes": [],
+        "codes": [
+            "[THA]"
+        ],
         "comments": []
     },
     {
@@ -146318,13 +146707,15 @@
         "comments": []
     },
     {
-        "name": "TOGO_  [TGO]",
+        "name": "TOGO_",
         "alias": [
             "+TOGOLESE_",
             "+TOGOLAISE_",
             "+LOME_"
         ],
-        "codes": [],
+        "codes": [
+            "[TGO]"
+        ],
         "comments": []
     },
     {
@@ -147217,18 +147608,20 @@
         "comments": []
     },
     {
-        "name": "TOKELAU_  [NZLTKL]",
+        "name": "TOKELAU_",
         "alias": [
             "+TOKELAUAN_",
             "+UNION_ISLANDS_",
             "+TOKEALU_",
             "+NUKUNONO_"
         ],
-        "codes": [],
+        "codes": [
+            "[NZLTKL]"
+        ],
         "comments": []
     },
     {
-        "name": "TONGA_  [TON]",
+        "name": "TONGA_",
         "alias": [
             "+TONGAN_",
             "+FRIENDLY_ISLANDS_",
@@ -147238,7 +147631,9 @@
             "+FUTUNA_ISLAND_",
             "+NUKU'ALOFA_"
         ],
-        "codes": [],
+        "codes": [
+            "[TON]"
+        ],
         "comments": []
     },
     {
@@ -147647,14 +148042,16 @@
         "comments": []
     },
     {
-        "name": "TRINIDAD_AND_TOBAGO_  [TTO]",
+        "name": "TRINIDAD_AND_TOBAGO_",
         "alias": [
             "+TRINIDADIAN_",
             "+TRINIDAD_",
             "+TOBAGO_",
             "+PORT_OF_SPAIN_"
         ],
-        "codes": [],
+        "codes": [
+            "[TTO]"
+        ],
         "comments": []
     },
     {
@@ -148346,7 +148743,7 @@
         "comments": []
     },
     {
-        "name": "TUNISIA_  [TUN]",
+        "name": "TUNISIA_",
         "alias": [
             "+TUNISIAN_",
             "+TOUNISIYYA_",
@@ -148365,7 +148762,9 @@
             "+SUSA_",
             "+SUSAH_"
         ],
-        "codes": [],
+        "codes": [
+            "[TUN]"
+        ],
         "comments": []
     },
     {
@@ -149076,7 +149475,7 @@
         "comments": []
     },
     {
-        "name": "TURKEY_  [TUR]",
+        "name": "TURKEY_",
         "alias": [
             "+TURKISH_",
             "+TURKISH_REPUBLIC",
@@ -149134,7 +149533,9 @@
             "+MARDIN",
             "+GEZI_PARK"
         ],
-        "codes": [],
+        "codes": [
+            "[TUR]"
+        ],
         "comments": []
     },
     {
@@ -151041,7 +151442,7 @@
         "comments": []
     },
     {
-        "name": "TUVALU_  [TUV]",
+        "name": "TUVALU_",
         "alias": [
             "+TUVALUAN_",
             "+ELLICE_ISLANDS_",
@@ -151053,7 +151454,9 @@
             "+NIVALAKITA_",
             "+VAIAKU_"
         ],
-        "codes": [],
+        "codes": [
+            "[TUV]"
+        ],
         "comments": []
     },
     {
@@ -151463,7 +151866,7 @@
         "comments": []
     },
     {
-        "name": "UGANDA_  [UGA]",
+        "name": "UGANDA_",
         "alias": [
             "+UGANDAN_",
             "+OUGANDA_",
@@ -151473,7 +151876,9 @@
             "+GULU_",
             "+BUGANDA_"
         ],
-        "codes": [],
+        "codes": [
+            "[UGA]"
+        ],
         "comments": []
     },
     {
@@ -154317,7 +154722,7 @@
         "comments": []
     },
     {
-        "name": "UNITED_ARAB_EMIRATES_  [ARE]",
+        "name": "UNITED_ARAB_EMIRATES_",
         "alias": [
             "+EMIRATI_",
             "+UAE_",
@@ -154344,7 +154749,9 @@
             "+DUBAI_",
             "+SHARJAH"
         ],
-        "codes": [],
+        "codes": [
+            "[ARE]"
+        ],
         "comments": []
     },
     {
@@ -154885,14 +155292,16 @@
         "comments": []
     },
     {
-        "name": "URUGUAY_  [URY]",
+        "name": "URUGUAY_",
         "alias": [
             "+URUGUAYAN_",
             "+URAGUAY_",
             "+URUGUAI_",
             "+MONTEVIDEO_"
         ],
-        "codes": [],
+        "codes": [
+            "[URY]"
+        ],
         "comments": []
     },
     {
@@ -155531,7 +155940,7 @@
         "comments": []
     },
     {
-        "name": "UNITED_STATES_OF_AMERICA_  [USA]",
+        "name": "UNITED_STATES_OF_AMERICA_",
         "alias": [
             "+WASHINGTON_D.C._",
             "+WASHINGTON_  #_POTENTIALLY_CONFUSED_WITH_THE_STATE,_OF_COURSE..._",
@@ -155750,7 +156159,9 @@
             "+GRAND_CANYON_",
             "+ROCKY_MOUNTAINS_"
         ],
-        "codes": [],
+        "codes": [
+            "[USA]"
+        ],
         "comments": [
             "+WASHINGTON_  #_POTENTIALLY_CONFUSED_WITH_THE_STATE,_OF_COURSE..._",
             "+US_ # This one is hard. \"The Russians attacked us!\" -> RUS 19 USA...",
@@ -159736,7 +160147,7 @@
         "comments": []
     },
     {
-        "name": "UNITED_REPUBLIC_OF_TANZANIA_  [TZA]",
+        "name": "UNITED_REPUBLIC_OF_TANZANIA_",
         "alias": [
             "+TANZANIAN_",
             "+TANZANIA_",
@@ -159757,7 +160168,9 @@
             "+OLDUVAI_GORGE_",
             "+ARUSHA"
         ],
-        "codes": [],
+        "codes": [
+            "[TZA]"
+        ],
         "comments": []
     },
     {
@@ -160651,7 +161064,7 @@
         "comments": []
     },
     {
-        "name": "UNITED_STATES_VIRGIN_ISLANDS_  [USAVIR]",
+        "name": "UNITED_STATES_VIRGIN_ISLANDS_",
         "alias": [
             "+VIRGIN_ISLANDER_",
             "+VIRGIN_ISLANDS_(US)_",
@@ -160673,7 +161086,9 @@
             "+VIRGIN_ISLANDS_OF_THE_US_",
             "+VIRGIN_ISLANDS,_UNITED_STATES_"
         ],
-        "codes": [],
+        "codes": [
+            "[USAVIR]"
+        ],
         "comments": []
     },
     {
@@ -161554,7 +161969,7 @@
         "comments": []
     },
     {
-        "name": "VANUATU_  [VUT]",
+        "name": "VANUATU_",
         "alias": [
             "+NI-VANUATU_",
             "+VANAUTU_",
@@ -161567,7 +161982,9 @@
             "+NEW_HEBRIDES_",
             "+PORT_VILA_"
         ],
-        "codes": [],
+        "codes": [
+            "[VUT]"
+        ],
         "comments": []
     },
     {
@@ -162121,7 +162538,7 @@
         "comments": []
     },
     {
-        "name": "VENEZUELA_  [VEN]",
+        "name": "VENEZUELA_",
         "alias": [
             "+VENEZUELAN_",
             "+VENEZEULA_",
@@ -162148,7 +162565,9 @@
             "+KUKENAAM_",
             "+KUKENAAM_FALLS_"
         ],
-        "codes": [],
+        "codes": [
+            "[VEN]"
+        ],
         "comments": []
     },
     {
@@ -163371,7 +163790,7 @@
         "comments": []
     },
     {
-        "name": "VIETNAM_  [VNM]",
+        "name": "VIETNAM_",
         "alias": [
             "+VIETNAMESE_",
             "+VIET_NAM_",
@@ -163444,7 +163863,9 @@
             "+TRA_VINH_",
             "+VINH_LONG_"
         ],
-        "codes": [],
+        "codes": [
+            "[VNM]"
+        ],
         "comments": []
     },
     {
@@ -164136,7 +164557,7 @@
         "comments": []
     },
     {
-        "name": "WALLIS_AND_FUTUNA_ISLANDS_  [FRNWLF]",
+        "name": "WALLIS_AND_FUTUNA_ISLANDS_",
         "alias": [
             "+WALLISIAN_",
             "+FUTUNAN_",
@@ -164151,11 +164572,13 @@
             "+WALLIS_FUTUNA_",
             "+UVEA_MO_FUTUNA_"
         ],
-        "codes": [],
+        "codes": [
+            "[FRNWLF]"
+        ],
         "comments": []
     },
     {
-        "name": "YEMEN_  [YEM]",
+        "name": "YEMEN_",
         "alias": [
             "+YEMENI_",
             "+YEMENITE_",
@@ -164189,7 +164612,9 @@
             "+HAJJAH_GOVERNORATE",
             "+DHAMAR_GOVERNORATE?"
         ],
-        "codes": [],
+        "codes": [
+            "[YEM]"
+        ],
         "comments": []
     },
     {
@@ -165282,12 +165707,14 @@
         "comments": []
     },
     {
-        "name": "ZAMBIA_  [ZMB]",
+        "name": "ZAMBIA_",
         "alias": [
             "+ZAMBIAN_",
             "+LUSAKA_"
         ],
-        "codes": [],
+        "codes": [
+            "[ZMB]"
+        ],
         "comments": []
     },
     {
@@ -165956,7 +166383,7 @@
         "comments": []
     },
     {
-        "name": "ZIMBABWE_  [ZWE]",
+        "name": "ZIMBABWE_",
         "alias": [
             "+ZIMBABWEAN_",
             "+ZIMBABWAE_",
@@ -165966,7 +166393,9 @@
             "+SALISBURY_",
             "+BULAWAYO_"
         ],
-        "codes": [],
+        "codes": [
+            "[ZWE]"
+        ],
         "comments": []
     },
     {

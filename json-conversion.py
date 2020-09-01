@@ -12,6 +12,16 @@ def extract_name_and_code(line):
 
     return name, code
 
+def extract_comment_and_alias(line):
+        
+    code_idx = line.index("#")
+
+    alias = line[0:code_idx].strip()
+    comment = line[code_idx:].strip()
+
+    return alias, comment
+    
+
 print ('Number of arguments:', len(sys.argv), 'arguments.')
 print ('Argument List:', str(sys.argv))
 
@@ -84,6 +94,14 @@ for line in lines:
 
         if line.startswith('+'):
             actordict["alias"].append(line)
+
+            new_alias = [],
+            new_comment = []
+
+            if "#" in line:
+                new_alias, new_comment = extract_comment_and_alias(line)
+                new_comment += new_alias
+
         elif line.startswith('['):
             actordict["codes"].append(line)
         else:   
