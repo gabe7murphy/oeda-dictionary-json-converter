@@ -25,7 +25,7 @@
             "+QANDAHAR_",
             "+MAZAR-I-SHARIF_",
             "+BAGRAM",
-            "+HELMAND # Other provinces, since they're reported often",
+            "+HELMAND",
             "+KUNAR",
             "+BADAKHSHAN",
             "+BADGHIS",
@@ -40,7 +40,7 @@
             "+KHOST",
             "+KUNDUZ",
             "+LAGHMAN",
-            "+LOGAR_PROVINCE # disambig",
+            "+LOGAR_PROVINCE",
             "+MAIDAN_WARDAK",
             "+NANGARHAR",
             "+NIMRUZ",
@@ -331,7 +331,7 @@
         "name": "AHMED_SHAH_MASSOUD_",
         "alias": [],
         "codes": [
-            "[AFGREB 19790706-20110909] # maybe ELI or UAF post-Soviet?"
+            "[AFGREB 19790706-20110909]"
         ],
         "comments": [
             "[AFGREB 19790706-20110909] # maybe ELI or UAF post-Soviet?"
@@ -30062,7 +30062,7 @@
             "+PEOPLE'S_LIBERATION_ARMY_LAND_FORCES",
             "+PLA_GENERAL_STAFF_DEPARTMENT",
             "+PEOPLE'S_LIBERATION_ARMY_STAFF_DEPARTMENT",
-            "+UNIT_61398 # ?",
+            "+UNIT_61398",
             "+PLA_UNIT_61398",
             "+CHINESE_CENTRAL_MILITARY_COMMISSION"
         ],
@@ -30092,7 +30092,7 @@
             "+GENERAL_COMMITTEE_OF_THE_COMMUNIST_PARTY_OF_CHINA"
         ],
         "codes": [
-            "[CHNGOV] # Right? Happy to hear input."
+            "[CHNGOV]"
         ],
         "comments": [
             "[CHNGOV] # Right? Happy to hear input."
@@ -43996,7 +43996,7 @@
         ]
     },
     {
-        "name": "MOHAMED_MORSI_ # http://www.saudigazette.com.sa/index.cfm?method=home.regcon&contentid=20120713129825",
+        "name": "MOHAMED_MORSI_",
         "alias": [
             "+MORSI_",
             "+MURSI_",
@@ -44042,7 +44042,7 @@
         ]
     },
     {
-        "name": "MOHAMED_ELBARADEI_ # First one is IAEA-debatable",
+        "name": "MOHAMED_ELBARADEI_",
         "alias": [
             "+MOHAMED_MUSTAFA_ELBARADEI_",
             "+ELBARADEI_",
@@ -44058,10 +44058,10 @@
         ]
     },
     {
-        "name": "ADLY_MANSOUR_ # n.d for JUD",
+        "name": "ADLY_MANSOUR_",
         "alias": [
             "+ADLY_MAHMOUD_MANSOUR_",
-            "+PRESIDENT_MANSOUR_ # (acting)"
+            "+PRESIDENT_MANSOUR_"
         ],
         "codes": [
             "[EGYGOVJUD 920101-130703]",
@@ -44171,8 +44171,8 @@
         "alias": [],
         "codes": [
             "[EGYELI 510101-960104]",
-            "[EGYGOV 960104-991005]  # PM pt. 1",
-            "[EGYGOV 20121207-20120802] # PM pt. 2",
+            "[EGYGOV 960104-991005]",
+            "[EGYGOV 20121207-20120802]",
             "[EGYELI]"
         ],
         "comments": [
@@ -44212,9 +44212,9 @@
             "+PRIME_MINISTER_SHAFIK_"
         ],
         "codes": [
-            "[EGYMIL 19970407-20020301] # CMDR Air Force",
-            "[EGYGOVBUS 20020918-20110131] # Min of Civil Aviation",
-            "[EGYGOV 20110131-20110303] # Prime Minister"
+            "[EGYMIL 19970407-20020301]",
+            "[EGYGOVBUS 20020918-20110131]",
+            "[EGYGOV 20110131-20110303]"
         ],
         "comments": [
             "[EGYMIL 19970407-20020301] # CMDR Air Force",
@@ -44243,8 +44243,8 @@
             "+PRIME_MINISTER_QANDIL_"
         ],
         "codes": [
-            "[EGYGOV 20110721-20120802] # Min. of Water Resources",
-            "[EGYGOV 20120802-20130603] # PM"
+            "[EGYGOV 20110721-20120802]",
+            "[EGYGOV 20120802-20130603]"
         ],
         "comments": [
             "[EGYGOV 20110721-20120802] # Min. of Water Resources",
@@ -44259,9 +44259,9 @@
             "+PRIME_MINISTER_BEBLAWI_"
         ],
         "codes": [
-            "[EGYGOVBUS 20110717-20111201] # Min. of Fin.",
-            "[EGYGOV 20110717-20111201] # Dep. PM",
-            "[EGYGOV 20130716-20140301] # Acting PM"
+            "[EGYGOVBUS 20110717-20111201]",
+            "[EGYGOV 20110717-20111201]",
+            "[EGYGOV 20130716-20140301]"
         ],
         "comments": [
             "[EGYGOVBUS 20110717-20111201] # Min. of Fin.",
@@ -44276,7 +44276,7 @@
             "+PRIME_MINISTER_IBRAHIM_MAHLAB_"
         ],
         "codes": [
-            "[EGYGOV >20140301] # Acting PM"
+            "[EGYGOV >20140301]"
         ],
         "comments": [
             "[EGYGOV >20140301] # Acting PM"
@@ -44304,7 +44304,7 @@
         ]
     },
     {
-        "name": "AHMED_DARWISH_  # the soccer player's more famous",
+        "name": "AHMED_DARWISH_",
         "alias": [],
         "codes": [
             "[---]"
@@ -44331,7 +44331,7 @@
         ]
     },
     {
-        "name": "AHMED_EL_MAGHRABI_  # Tourism minister. Not sure on end date",
+        "name": "AHMED_EL_MAGHRABI_",
         "alias": [],
         "codes": [
             "[EGYGOVBUS 040901-060131]",
@@ -44374,7 +44374,7 @@
         ]
     },
     {
-        "name": "AHMED_ZAKI_BADR_  # departure date est.",
+        "name": "AHMED_ZAKI_BADR_",
         "alias": [],
         "codes": [
             "[EGYGOVEDU 100201-110211]",
@@ -44686,7 +44686,7 @@
         ]
     },
     {
-        "name": "MOHAMED_HUSSEIN_TANTAWI_  #",
+        "name": "MOHAMED_HUSSEIN_TANTAWI_",
         "alias": [
             "+TANTAWI_"
         ],
@@ -44701,7 +44701,7 @@
         ]
     },
     {
-        "name": "IBRAHIM_MAHLAB_ # he was housing min before but n.d.",
+        "name": "IBRAHIM_MAHLAB_",
         "alias": [],
         "codes": [
             "[EGYGOV > 140301]"
@@ -53252,7 +53252,7 @@
         ]
     },
     {
-        "name": "WILLI_STOPH_ # PM of East Germany",
+        "name": "WILLI_STOPH_",
         "alias": [],
         "codes": [
             "[DDRGOV 731003-761029]",
@@ -53265,7 +53265,7 @@
         ]
     },
     {
-        "name": "ERICH_HONECKER_ # General Secretary of the Socialist Unity Party",
+        "name": "ERICH_HONECKER_",
         "alias": [],
         "codes": [
             "[DDRGOV 761029-891024]",
@@ -53276,7 +53276,7 @@
         ]
     },
     {
-        "name": "EGON_KRENZ_ # Leader of the Socialist Unity Party",
+        "name": "EGON_KRENZ_",
         "alias": [],
         "codes": [
             "[DDRGOV 891024-891206]",
@@ -53287,7 +53287,7 @@
         ]
     },
     {
-        "name": "MANFRED_GERLACH_ # East German head of state 89-90",
+        "name": "MANFRED_GERLACH_",
         "alias": [],
         "codes": [
             "[DDRELI 460101-891206]",
@@ -53302,7 +53302,7 @@
         "codes": [
             "[DDRELI 640101-900405]",
             "[DDRGOV 900405-901002]",
-            "[DEUGOVHLH 19910118-19981026] #",
+            "[DEUGOVHLH 19910118-19981026]",
             "[DEUELI]"
         ],
         "comments": [
@@ -53474,7 +53474,7 @@
         ]
     },
     {
-        "name": "FRIEDRICH_EBERT_ # First president of Germany",
+        "name": "FRIEDRICH_EBERT_",
         "alias": [],
         "codes": [
             "[DEUELI 19120101-730801]",
@@ -53571,8 +53571,8 @@
             "+PRESIENT_CHRISTIAN_WULFF"
         ],
         "codes": [
-            "[DEUGOV 20100702-20120217] # President of Germany",
-            "[DEUGOV 20030304-20100630] # Prime Minister of Lower Saxony"
+            "[DEUGOV 20100702-20120217]",
+            "[DEUGOV 20030304-20100630]"
         ],
         "comments": [
             "[DEUGOV 20100702-20120217] # President of Germany",
@@ -53631,9 +53631,9 @@
             "+BUNDESKANZLER_GERHARD_SCHRODER_"
         ],
         "codes": [
-            "[DEUGOV 19981027-20051122] # Chancellor of Germany",
-            "[DEUGOVLEG 19971101-19981027] # President of the Bundesrat",
-            "[DEUGOV 19900621-19981027] # Prime Minister of Lower Saxony",
+            "[DEUGOV 19981027-20051122]",
+            "[DEUGOVLEG 19971101-19981027]",
+            "[DEUGOV 19900621-19981027]",
             "[DEUELI]"
         ],
         "comments": [
@@ -55370,7 +55370,7 @@
         "name": "DAVID_CAMERON_  ",
         "alias": [
             "+DAVID_WILLIAM_DONALD_CAMERON_",
-            "+PRIME_MINISTER_DAVID_CAMERON_ # Add MP time"
+            "+PRIME_MINISTER_DAVID_CAMERON_"
         ],
         "codes": [
             "[GBRGOV >201005011]"
@@ -57177,7 +57177,7 @@
         ],
         "codes": [
             "[GRCGOV >091201]",
-            "[IGOEUREEC 880701-881231] # president of the CoEU from GREECE# IGOrulers.txt"
+            "[IGOEUREEC 880701-881231]"
         ],
         "comments": [
             "[IGOEUREEC 880701-881231] # president of the CoEU from GREECE# IGOrulers.txt"
@@ -65483,7 +65483,7 @@
         "name": "NARENDRA_MODI",
         "alias": [],
         "codes": [
-            "[INDGOV >20140526] # Should figure out regional stuff"
+            "[INDGOV >20140526]"
         ],
         "comments": [
             "[INDGOV >20140526] # Should figure out regional stuff"
@@ -67168,7 +67168,7 @@
             "+PAPUA_",
             "+RIAU_",
             "+WEST_JAVA_",
-            "+WEST_PAPUA#_VERY_IFFY_",
+            "+WEST_PAPUA",
             "+YOGYAKARTA_",
             "+SUMATRA_",
             "+SULAWESI_",
@@ -68370,7 +68370,7 @@
         ],
         "codes": [
             "[IRNGOV 811013-890803]",
-            "[IRNGOV >19890604] # Supreme Leader",
+            "[IRNGOV >19890604]",
             "[IRNELI]"
         ],
         "comments": [
@@ -68433,7 +68433,7 @@
         ],
         "codes": [
             "[IRNGOVLEG 19800528-20000526]",
-            "[IRNGOV >20000218] # Assembly of Experts"
+            "[IRNGOV >20000218]"
         ],
         "comments": [
             "[IRNGOV >20000218] # Assembly of Experts"
@@ -69657,7 +69657,7 @@
         ]
     },
     {
-        "name": "IRAQI_KURDISTAN # Make new Kurdistan code?",
+        "name": "IRAQI_KURDISTAN",
         "alias": [
             "+ERBIL",
             "+IRBIL",
@@ -69677,7 +69677,7 @@
         ]
     },
     {
-        "name": "KURDISTAN_REGIONAL_GOVERNMENT # Make new Kurdistan code?",
+        "name": "KURDISTAN_REGIONAL_GOVERNMENT",
         "alias": [
             "+KRG",
             "+IRAQI_KURDISTAN",
@@ -69696,7 +69696,7 @@
         ]
     },
     {
-        "name": "PESHMERGA  # Kurdistan stuff",
+        "name": "PESHMERGA",
         "alias": [
             "+PESH_MERGA",
             "+KURDISH_PESHMERGA"
@@ -72484,7 +72484,7 @@
         ],
         "codes": [
             "[ISRGOVMED 030101-030228]",
-            "[ISRGOVLEG 19990101-20130222] #check start date",
+            "[ISRGOVLEG 19990101-20130222]",
             "[ISRGOV >20140724]"
         ],
         "comments": [
@@ -96064,7 +96064,7 @@
             "+TRANSDNIESTRIA"
         ],
         "codes": [
-            "[MDA] # Obvious candidate for aut. code"
+            "[MDA]"
         ],
         "comments": [
             "[MDA] # Obvious candidate for aut. code"
@@ -104265,7 +104265,7 @@
     {
         "name": "NEW_ZEALAND_",
         "alias": [
-            "+ZEALAND # hacky fix for CoreNLP weirdness",
+            "+ZEALAND",
             "+NEW_ZEALANDER_",
             "+KIWI_",
             "+NEWZEALAND_",
@@ -110237,7 +110237,7 @@
             "+PRISTINA"
         ],
         "codes": [
-            "[KSV] # using World Bank code-No ISO",
+            "[KSV]",
             "[YUGKSV <920428]",
             "[FRYKSV 920428-990610]",
             "[KSVUNO 990610-080217]",
@@ -110280,7 +110280,7 @@
         ]
     },
     {
-        "name": "IBRAHIM_RUGOVA #",
+        "name": "IBRAHIM_RUGOVA",
         "alias": [
             "+PRESIDENT_IBRAHIM_RUGOVA",
             "+PRESIDENT_RUGOVA",
@@ -110294,7 +110294,7 @@
         ]
     },
     {
-        "name": "NEXHAT_DACI_ #",
+        "name": "NEXHAT_DACI_",
         "alias": [],
         "codes": [
             "[KSVGOV 060121-080217]"
@@ -110304,7 +110304,7 @@
         ]
     },
     {
-        "name": "FATMIR_SEJDIU_ #",
+        "name": "FATMIR_SEJDIU_",
         "alias": [
             "+PRESIDENT_FATMIR_SEJDIU",
             "+PRESIDENT_SEJDIU"
@@ -110317,7 +110317,7 @@
         ]
     },
     {
-        "name": "JAKUP_KRASNIQI_ #",
+        "name": "JAKUP_KRASNIQI_",
         "alias": [
             "+ASSEMBLY_LEADER_JAKUP_KRASNIQI"
         ],
@@ -110330,7 +110330,7 @@
         ]
     },
     {
-        "name": "BEHGJET_PACOLLI_ #",
+        "name": "BEHGJET_PACOLLI_",
         "alias": [],
         "codes": [
             "[KSVGOV 110222-110404]",
@@ -110341,7 +110341,7 @@
         ]
     },
     {
-        "name": "ATIFETE_JAHJAGA_ #",
+        "name": "ATIFETE_JAHJAGA_",
         "alias": [
             "+JAHJAGA",
             "+PRESIDENT_JAHJAGA"
@@ -110354,7 +110354,7 @@
         ]
     },
     {
-        "name": "HASHIM_THACI_ #",
+        "name": "HASHIM_THACI_",
         "alias": [],
         "codes": [
             "[KSVGOV > 080109]"
@@ -110364,7 +110364,7 @@
         ]
     },
     {
-        "name": "BAJRAM_REXHEPI_ #",
+        "name": "BAJRAM_REXHEPI_",
         "alias": [],
         "codes": [
             "[KSVGOV > 110222]"
@@ -110374,7 +110374,7 @@
         ]
     },
     {
-        "name": "ALBIN_KURTI_ #",
+        "name": "ALBIN_KURTI_",
         "alias": [],
         "codes": [
             "[KSVOPP]"
@@ -121870,7 +121870,7 @@
             "+CHAIRMAN_OF_THE_SOVIET_OF_NATIONALITIES"
         ],
         "codes": [
-            "[SUNGOVLEG 19171109-19911225] # kinda made that up"
+            "[SUNGOVLEG 19171109-19911225]"
         ],
         "comments": [
             "[SUNGOVLEG 19171109-19911225] # kinda made that up"
@@ -122037,7 +122037,7 @@
             "+FEDERAL_ASSEMBLY_OF_RUSSIA",
             "+STATE_DUMA",
             "+DUMA",
-            "+FEDERATION_COUNCIL  # Don't worry, only other one is Star Trek",
+            "+FEDERATION_COUNCIL",
             "+CHAIRMAN_OF_THE_FEDERATION_COUNCIL"
         ],
         "codes": [
@@ -122060,10 +122060,10 @@
     {
         "name": "FEDERAL_SECURITY_SERVICE_",
         "alias": [
-            "+FSB_  # hmm... Could get false positives"
+            "+FSB_"
         ],
         "codes": [
-            "[RUSCOP] # Or SPY? Law says one thing, common usage another."
+            "[RUSCOP]"
         ],
         "comments": [
             "+FSB_  # hmm... Could get false positives",
@@ -123042,8 +123042,8 @@
             "+SERGEI_LAVROV"
         ],
         "codes": [
-            "[RUSGOV 19940922-20040712] # Amb. to UN",
-            "[RUSGOV >20040309]  # Foreign Minister"
+            "[RUSGOV 19940922-20040712]",
+            "[RUSGOV >20040309]"
         ],
         "comments": [
             "[RUSGOV 19940922-20040712] # Amb. to UN",
@@ -134716,7 +134716,7 @@
             "+SOUTH_SUDANESE",
             "+REPUBLIC_OF_SOUTH_SUDAN_",
             "+JUBA_",
-            "+RAMCIEL___#_LIKELY_TO_EVENTUALLY_BECOME_A_FEDERAL_DISTRICT/CAPITAL_",
+            "+RAMCIEL___",
             "+JONGLEI",
             "+BENTIU"
         ],
@@ -134731,7 +134731,7 @@
         ]
     },
     {
-        "name": "SUDAN_PEOPLES_LIBERATION_MOVEMENT # Still need to deal with apostrophes",
+        "name": "SUDAN_PEOPLES_LIBERATION_MOVEMENT",
         "alias": [],
         "codes": [],
         "comments": []
@@ -134740,9 +134740,9 @@
         "name": "SUDAN_PEOPLE'S_LIBERATION_MOVEMENT",
         "alias": [],
         "codes": [
-            "[SDNREB 19830516-20050109] # recog by gov as ruling party of S.Sudan aut. reg.",
-            "[SDNGOVPTY 20050109-20071011] # then withdrew from gov",
-            "[SDNOPPPTY 20071011-20110711] # Need to consistently implement PTY",
+            "[SDNREB 19830516-20050109]",
+            "[SDNGOVPTY 20050109-20071011]",
+            "[SDNOPPPTY 20071011-20110711]",
             "[SDNGOVPTY >20110711]"
         ],
         "comments": [
@@ -140261,7 +140261,7 @@
             "+KOBANE",
             "+YABROUD",
             "+YABRUD",
-            "+GOLAN_HEIGHTS  # de facto vs. de jure...?"
+            "+GOLAN_HEIGHTS"
         ],
         "codes": [
             "[SYR]"
@@ -141238,7 +141238,7 @@
         ]
     },
     {
-        "name": "ABU_MOHAMMAD_AL_JAWLANI_  #",
+        "name": "ABU_MOHAMMAD_AL_JAWLANI_",
         "alias": [
             "+ABU_MOHAMMAD_AL-JAWLANI_",
             "+ABU_MOHAMMAD_AL-JOULANI_",
@@ -141253,7 +141253,7 @@
         ]
     },
     {
-        "name": "FREE_SYRIAN_ARMY_  #",
+        "name": "FREE_SYRIAN_ARMY_",
         "alias": [
             "+ABU_BASSIR_AL_JEBLAWI_",
             "+ABU_BASSIR_AL-JEBLAWI_",
@@ -141321,7 +141321,7 @@
         ]
     },
     {
-        "name": "COALITION_OF_SECULAR_AND_DEMOCRATIC_SYRIANS_ #",
+        "name": "COALITION_OF_SECULAR_AND_DEMOCRATIC_SYRIANS_",
         "alias": [
             "+_SYRIAN_COALITION_OF_SECULAR_AND_DEMOCRATIC_FORCES_",
             "+RANDA_KASSIS_"
@@ -141334,7 +141334,7 @@
         ]
     },
     {
-        "name": "DAMASCUS_DECLARATION_ #",
+        "name": "DAMASCUS_DECLARATION_",
         "alias": [
             "+MICHEL_KILO_",
             "+ABDULRAZAK_EID_",
@@ -141352,7 +141352,7 @@
         ]
     },
     {
-        "name": "JAISH_AL_MUHAJIREEN_WAL_ANSAR_ #",
+        "name": "JAISH_AL_MUHAJIREEN_WAL_ANSAR_",
         "alias": [
             "+JAISH_AL-MUHAJIREEN_WAL-ANSAR_",
             "+MUHAJIREEN_BRIGADE_",
@@ -141375,7 +141375,7 @@
         ]
     },
     {
-        "name": "JABHAT_AL_NUSRA_  #",
+        "name": "JABHAT_AL_NUSRA_",
         "alias": [
             "+NUSRA_FRONT_",
             "+JABHAT_AL-NUSRA_",
@@ -141407,7 +141407,7 @@
         ]
     },
     {
-        "name": "SUPREME_COUNCIL_OF_THE_SYRIAN_REVOLUTION_ #",
+        "name": "SUPREME_COUNCIL_OF_THE_SYRIAN_REVOLUTION_",
         "alias": [],
         "codes": [
             "[SYROPP >110101]"
@@ -141427,7 +141427,7 @@
         ]
     },
     {
-        "name": "MOVEMENT_FOR_JUSTICE_AND_DEVELOPMENT_IN_SYRIA_ #",
+        "name": "MOVEMENT_FOR_JUSTICE_AND_DEVELOPMENT_IN_SYRIA_",
         "alias": [
             "+ḤARAKAT_AL-'IDALAT_WAL-BANA'A_FI_SURIYAH_"
         ],
@@ -141439,7 +141439,7 @@
         ]
     },
     {
-        "name": "RIAD_SEIF #",
+        "name": "RIAD_SEIF",
         "alias": [],
         "codes": [
             "[SYROPP >000601]"
@@ -141449,7 +141449,7 @@
         ]
     },
     {
-        "name": "MOAZ_AL_KHATIB_ #",
+        "name": "MOAZ_AL_KHATIB_",
         "alias": [
             "+MOAZ_AL-KHATIB_",
             "+AHMAD_MOUATH_AL_KHATIB_AL_HASANI_",
@@ -141463,7 +141463,7 @@
         ]
     },
     {
-        "name": "SYRIAN_ISLAMIC_FRONT_ #",
+        "name": "SYRIAN_ISLAMIC_FRONT_",
         "alias": [],
         "codes": [
             "[SYRREBMUS]"
@@ -141473,7 +141473,7 @@
         ]
     },
     {
-        "name": "SYRIAN_NATIONAL_COUNCIL_ #",
+        "name": "SYRIAN_NATIONAL_COUNCIL_",
         "alias": [
             "+SYRIAN_NATIONAL_TRANSITIONAL_COUNCIL_",
             "+NATIONAL_COUNCIL_OF_SYRIA_"
@@ -141486,7 +141486,7 @@
         ]
     },
     {
-        "name": "SYRIAN_NATIONAL_COALITION_ #",
+        "name": "SYRIAN_NATIONAL_COALITION_",
         "alias": [
             "+NATIONAL_COALITION_FOR_SYRIAN_REVOLUTIONARY_AND_OPPOSITION_FORCES_",
             "+MOUAZ_AL_KHATEEB_",
@@ -141502,7 +141502,7 @@
         ]
     },
     {
-        "name": "AHRAR_AL_SHAM_ #",
+        "name": "AHRAR_AL_SHAM_",
         "alias": [
             "+AHRAR_AL-SHAM_",
             "+AHRAR_ASH_SHAM_",
@@ -141524,7 +141524,7 @@
         ]
     },
     {
-        "name": "SUQOUR_AL_SHAM_BRIGADE_ #",
+        "name": "SUQOUR_AL_SHAM_BRIGADE_",
         "alias": [
             "+SUQOUR_AL-SHAM_BRIGADE_",
             "+SHAM_FALCONS_BRIGADE_",
@@ -141540,7 +141540,7 @@
         ]
     },
     {
-        "name": "GHURABA_AL_SHAM_ #",
+        "name": "GHURABA_AL_SHAM_",
         "alias": [],
         "codes": [],
         "comments": []
@@ -141556,7 +141556,7 @@
         ]
     },
     {
-        "name": "TAWHID_BRIGADE_ #",
+        "name": "TAWHID_BRIGADE_",
         "alias": [
             "+AL_TAWHID_BRIGADE_",
             "+AL-TAWHID_BRIGADE_",
@@ -141577,7 +141577,7 @@
         ]
     },
     {
-        "name": "JAYSH_AL_SHA'BI_ #",
+        "name": "JAYSH_AL_SHA'BI_",
         "alias": [
             "+JAYSH_AL-SHA'BI_",
             "+JAISH_AL_SHA'BI_",
@@ -141604,7 +141604,7 @@
         ]
     },
     {
-        "name": "SYRIAN_OBSERVATORY_FOR_HUMAN_RIGHTS_ #",
+        "name": "SYRIAN_OBSERVATORY_FOR_HUMAN_RIGHTS_",
         "alias": [
             "+RAMI_ABDULRAHMAN_"
         ],
@@ -141616,7 +141616,7 @@
         ]
     },
     {
-        "name": "THE_ISLAMIC_FRONT_ #",
+        "name": "THE_ISLAMIC_FRONT_",
         "alias": [
             "+AL-JABHAT_AL-ISLAMIYYAH_",
             "+AHMED_ABU_ISSA_",
@@ -141658,7 +141658,7 @@
         ]
     },
     {
-        "name": "ISLAMIC_STATE_OF_IRAQ_AND_THE_LEVANT_# kkl mod",
+        "name": "ISLAMIC_STATE_OF_IRAQ_AND_THE_LEVANT_",
         "alias": [
             "+ISLAMIC_STATE_OF_IRAQ_",
             "+ISLAMIC_STATE_OF_IRAQ_AND_SYRIA_",
@@ -141695,30 +141695,30 @@
             "+TANZEEM_QAEDAT_AL-JIHAD_FI_BILAD_AL-RAFIDAYN_",
             "+ABU_MUZAB_AL-ZARQAWI_",
             "+ABU_OMAR_AL-BAGHDADI_",
-            "+ABU_AYYUB_AL-MASRI_ # (killed in 2010)",
-            "+ABU_ABDULLAH AL-RASHID AL-BAGHDADI_ # (killed in 2010)",
+            "+ABU_AYYUB_AL-MASRI_",
+            "+ABU_ABDULLAH AL-RASHID AL-BAGHDADI_",
             "+ABU_BAKR_AL-BAGHDADI_",
             "+AL-BAGHDADI",
-            "+ABU_ANAS AL-SHAMI_ # (killed in 2004)",
-            "+ABU_AZZAM_ # (killed in 2005)",
-            "+ABU_OMAR AL-KURDI_ # (captured in 2005)",
+            "+ABU_ANAS AL-SHAMI_",
+            "+ABU_AZZAM_",
+            "+ABU_OMAR AL-KURDI_",
             "+ABU_OMAR AL-SHISHANI_",
-            "+ABDUL_HADI AL-IRAQI_ # (captured in 2006)",
-            "+ABU_YAQUB AL-MASRI_ # (killed in 2007)",
-            "+HAITHAM_AL-BADRI_ # (killed in 2007)",
-            "+HAMID_JUMA FARIS JOURI AL-SAEEDI_ # (captured in 2006)",
-            "+KHALED_AL-MASHHADANI_ # (captured in 2007)",
-            "+MAHIR_AL-ZUBAYDI_ # (killed in 2008)",
-            "+MOHAMED_MOUMOU_ # (killed in 2008)",
-            "+SHEIK_ABD-AL-RAHMAN_ # (killed in 2006)",
-            "+HUTHAIFA_AL-BATAWI_ # (killed in 2011)",
+            "+ABDUL_HADI AL-IRAQI_",
+            "+ABU_YAQUB AL-MASRI_",
+            "+HAITHAM_AL-BADRI_",
+            "+HAMID_JUMA FARIS JOURI AL-SAEEDI_",
+            "+KHALED_AL-MASHHADANI_",
+            "+MAHIR_AL-ZUBAYDI_",
+            "+MOHAMED_MOUMOU_",
+            "+SHEIK_ABD-AL-RAHMAN_",
+            "+HUTHAIFA_AL-BATAWI_",
             "+ABU_HURAYRA_AL-AMRIKI",
             "+MONER_MOHAMMAD_ABU_SALHA",
             "+MONER_MOHAMMAD_ABU-SALHA",
             "+ABU_HURAYRA"
         ],
         "codes": [
-            "[IMGMUSISI >19990101] # just assigned ISI special code"
+            "[IMGMUSISI >19990101]"
         ],
         "comments": [
             "+ABU_AYYUB_AL-MASRI_ # (killed in 2010)",
@@ -141749,7 +141749,7 @@
             "+DAESH_"
         ],
         "codes": [
-            "[IMGMUSISI >20130408] # tighter date range for possible false positives"
+            "[IMGMUSISI >20130408]"
         ],
         "comments": [
             "[IMGMUSISI >20130408] # tighter date range for possible false positives"
@@ -149542,7 +149542,7 @@
         "name": "ERGENEKON",
         "alias": [],
         "codes": [
-            "[TURELI] # ? The deep state thing"
+            "[TURELI]"
         ],
         "comments": [
             "[TURELI] # ? The deep state thing"
@@ -149808,7 +149808,7 @@
             "+EKMELEDDIN_İHSANOĞLU"
         ],
         "codes": [
-            "[TURELI] # and OIC when we figure that out"
+            "[TURELI]"
         ],
         "comments": [
             "[TURELI] # and OIC when we figure that out"
@@ -150138,7 +150138,7 @@
             "+SELAHATTIN_DEMIRTAŞ"
         ],
         "codes": [
-            "[TURELI] # and parties, when we figure those out."
+            "[TURELI]"
         ],
         "comments": [
             "[TURELI] # and parties, when we figure those out."
@@ -153312,7 +153312,7 @@
         ]
     },
     {
-        "name": "LEONID_KUCHMA_  # COUNTRYINFO.TXT",
+        "name": "LEONID_KUCHMA_",
         "alias": [
             "+PRESIDENT_LEONID_KUCHMA"
         ],
@@ -153468,7 +153468,7 @@
         ]
     },
     {
-        "name": "YULIYA_TYMOSHENKO_  # COUNTRYINFO.TXT",
+        "name": "YULIYA_TYMOSHENKO_",
         "alias": [
             "+YULIA_TIMOSHENKO",
             "+PRIME_MINISTER_YULIA_TIMOSHENKO",
@@ -155943,10 +155943,10 @@
         "name": "UNITED_STATES_OF_AMERICA_",
         "alias": [
             "+WASHINGTON_D.C._",
-            "+WASHINGTON_  #_POTENTIALLY_CONFUSED_WITH_THE_STATE,_OF_COURSE..._",
+            "+WASHINGTON_",
             "+AMERICAN_",
             "+AMERICA",
-            "+US_ # This one is hard. \"The Russians attacked us!\" -> RUS 19 USA...",
+            "+US_",
             "+U.S.",
             "+USA_",
             "+U.S.A._",
@@ -155977,7 +155977,7 @@
             "+AMERICA_(USA)_",
             "+AMERICANS_(USA)_",
             "+AMERICA_(COUNTRY)_",
-            "+THE_UNITED_STATES # Need a general fix for \"the\" eventually",
+            "+THE_UNITED_STATES",
             "+ETATS_UNIS_",
             "+AMERICKY_",
             "+BANDARIKIN_",
@@ -156050,7 +156050,7 @@
             "+ROCHESTER_",
             "+NEW_ORLEANS_",
             "+LAWRENCE_",
-            "+ATHENS_ON_THE_KAW_ # sentimental exception",
+            "+ATHENS_ON_THE_KAW_",
             "+STATE_COLLEGE_",
             "+DAKOTA_",
             "+ALABAMA_",
@@ -156212,7 +156212,7 @@
             "+WHITE_HOUSE_SPOKESWOMAN",
             "+WHITE_HOUSE_SPOKESPERSON",
             "+WHITE_HOUSE_PRESS_SECRETARY",
-            "+WHITE_HOUSE_PRESS_SECRETARY_JAY_CARNEY # Should prob. make a separate category",
+            "+WHITE_HOUSE_PRESS_SECRETARY_JAY_CARNEY",
             "+EXECUTIVE_OFFICE_OF_THE_PRESIDENT_OF_THE_UNITED_STATES_"
         ],
         "codes": [
@@ -156281,7 +156281,7 @@
             "+COALITION_HUMANITARIAN_LIAISON_CELL"
         ],
         "codes": [
-            "[USAMILDEV] # add dates?"
+            "[USAMILDEV]"
         ],
         "comments": [
             "[USAMILDEV] # add dates?"
@@ -156328,7 +156328,7 @@
         ]
     },
     {
-        "name": "FEDERAL_BUREAU_OF_INVESTIGATION_ # I know, they're different, but they're all USACOP",
+        "name": "FEDERAL_BUREAU_OF_INVESTIGATION_",
         "alias": [
             "+FBI_",
             "+FEDERAL_LAW_ENFORCEMENT_",
@@ -156491,7 +156491,7 @@
         "name": "UNITED_STATES_DEPARTMENT_OF_JUSTICE_",
         "alias": [
             "+US_DEPARTMENT_OF_JUSTICE_",
-            "+DOJ_ # hmmm"
+            "+DOJ_"
         ],
         "codes": [
             "[USAGOV]"
@@ -156573,7 +156573,7 @@
         "name": "NATIONAL_AERONAUTICS_AND_SPACE_ADMINISTRATION_",
         "alias": [
             "+NASA_",
-            "+NATIONAL_SCIENCE_FOUNDATION_  # check for other countries"
+            "+NATIONAL_SCIENCE_FOUNDATION_"
         ],
         "codes": [
             "[USAGOV]"
@@ -157186,7 +157186,7 @@
     {
         "name": "THE_US_SECRETARY_OF_STATE_",
         "alias": [
-            "+SECRETARY_OF_STATE_ # iffy...",
+            "+SECRETARY_OF_STATE_",
             "+AMERICAN_SECRETARY_OF_STATE_",
             "+UNITED_STATES_SECRETARY_OF_STATE_"
         ],
@@ -157311,8 +157311,8 @@
         ],
         "codes": [
             "[USAELI 410101-690120]",
-            "[USAGOV 730922-770120] # Secretary of State",
-            "[USAGOV 690120-751103] # National security advisor"
+            "[USAGOV 730922-770120]",
+            "[USAGOV 690120-751103]"
         ],
         "comments": [
             "[USAGOV 730922-770120] # Secretary of State",
@@ -157341,9 +157341,9 @@
         ],
         "codes": [
             "[USAELI 350101-770123]",
-            "[USAGOVMIL 19640128-19670630] # Dep Sec Def",
-            "[USAGOVMIL 19620705-19640121] # Sec of Army",
-            "[USAGOV 770123-800428] # Sec State",
+            "[USAGOVMIL 19640128-19670630]",
+            "[USAGOVMIL 19620705-19640121]",
+            "[USAGOV 770123-800428]",
             "[USAELI 800428-020101]"
         ],
         "comments": [
@@ -157426,8 +157426,8 @@
         ],
         "codes": [
             "[USAELI 380101-820705]",
-            "[USAGOV 19760101-19820922] # various Amb.ships (need start)",
-            "[USAGOV 820705-820716] # brief acting Sec State",
+            "[USAGOV 19760101-19820922]",
+            "[USAGOV 820705-820716]",
             "[USAELI 820716-860101]"
         ],
         "comments": [
@@ -157459,9 +157459,9 @@
         ],
         "codes": [
             "[USAELI >19550101]",
-            "[USAGOV 19820101-19840101] # Amb to Philippines (need dates)",
-            "[USAGOV 19840101-19890120] # Under Secretary of State for Political Affairs",
-            "[USAGOV 890120-19930120] # Amb. to Japan (need dates)"
+            "[USAGOV 19820101-19840101]",
+            "[USAGOV 19840101-19890120]",
+            "[USAGOV 890120-19930120]"
         ],
         "comments": [
             "[USAGOV 19820101-19840101] # Amb to Philippines (need dates)",
@@ -157504,8 +157504,8 @@
         ],
         "codes": [
             "[USAGOV 19570101-19840501]",
-            "[USAGOV 19890120-19920823] # Dep Sec State",
-            "[USAGOV 920823-930119] # Secretary of State",
+            "[USAGOV 19890120-19920823]",
+            "[USAGOV 920823-930119]",
             "[USAELI 19570101-20110101]"
         ],
         "comments": [
@@ -157584,7 +157584,7 @@
         ],
         "codes": [
             "[USAELI 740101-090120]",
-            "[USAGOV 19820101] # entered Foreign Service"
+            "[USAGOV 19820101]"
         ],
         "comments": [
             "[USAGOV 19820101] # entered Foreign Service"
@@ -157608,7 +157608,7 @@
         ]
     },
     {
-        "name": "JOHN_KERRY_ # just KERRY is somewhat vague...",
+        "name": "JOHN_KERRY_",
         "alias": [
             "+SECRETARY_KERRY_",
             "+SECRETARY_OF_STATE_KERRY_",
@@ -157922,9 +157922,9 @@
         ],
         "codes": [
             "[USAELI 610101-870129]",
-            "[USAGOVMIL 061218-110701] # Sec Def",
-            "[USASPY 19860418-19890320] # Dep DCI",
-            "[USASPY 911106-930120] # DCI"
+            "[USAGOVMIL 061218-110701]",
+            "[USASPY 19860418-19890320]",
+            "[USASPY 911106-930120]"
         ],
         "comments": [
             "[USAGOVMIL 061218-110701] # Sec Def",
@@ -157955,7 +157955,7 @@
         ]
     },
     {
-        "name": "CHUCK_HAGEL  #CountryInfo.txt",
+        "name": "CHUCK_HAGEL",
         "alias": [
             "+DEFENSE_SECRETARY_CHUCK_HAGEL",
             "+SECRETARY_OF_DEFENSE_CHUCK_HAGEL",
@@ -157967,8 +157967,8 @@
             "+SENATOR_HAGEL"
         ],
         "codes": [
-            "[USAGOVLEG 19970103-20090103] # Senator from Nebraska",
-            "[USAGOVMIL >20130227] # Sec Def"
+            "[USAGOVLEG 19970103-20090103]",
+            "[USAGOVMIL >20130227]"
         ],
         "comments": [
             "[USAGOVLEG 19970103-20090103] # Senator from Nebraska",
@@ -158045,7 +158045,7 @@
         ]
     },
     {
-        "name": "GINA_CHERI_WALKER_HASPEL  # Country.Info.txt",
+        "name": "GINA_CHERI_WALKER_HASPEL",
         "alias": [
             "+GINA_HASPEL",
             "+CIA_DIRECTOR_GINA_HASPEL",
@@ -158385,7 +158385,7 @@
         "name": "JEH_JOHNSON_  ",
         "alias": [],
         "codes": [
-            "[USAGOV 20090209-20121231] # General council to DOD",
+            "[USAGOV 20090209-20121231]",
             "[USAGOV 20131223-20170120]"
         ],
         "comments": [
@@ -158398,7 +158398,7 @@
         "codes": [
             "[USAELI 20120211-20160421]",
             "[USAGOV 20170120-20170731]",
-            "[USAGOV 20170731-20190102] # White House Cheif of Staff"
+            "[USAGOV 20170731-20190102]"
         ],
         "comments": [
             "[USAGOV 20170731-20190102] # White House Cheif of Staff",
@@ -158406,7 +158406,7 @@
         ]
     },
     {
-        "name": "ELAINE_DUKE_  # Country.Info.txt",
+        "name": "ELAINE_DUKE_",
         "alias": [],
         "codes": [
             "[USAELI 20080710-20100421]",
@@ -158701,7 +158701,7 @@
         "codes": [
             "[USAELI 660101-050801]",
             "[USAGOV 050801-061209]",
-            "[USAGOV 180409-190910] # US National Security Advisor"
+            "[USAGOV 180409-190910]"
         ],
         "comments": [
             "[USAGOV 180409-190910] # US National Security Advisor"
@@ -158731,7 +158731,7 @@
         "codes": [
             "[USAELI 820101-000101]",
             "[USAGOV 090126-131020]",
-            "[USAGOV 130701-170120] # National Security Advisor"
+            "[USAGOV 130701-170120]"
         ],
         "comments": [
             "[USAGOV 130701-170120] # National Security Advisor"
@@ -158785,7 +158785,7 @@
         ]
     },
     {
-        "name": "KELLY_CRAFT_  # Country.Info.txt",
+        "name": "KELLY_CRAFT_",
         "alias": [],
         "codes": [
             "[USAELI 171023-190823]",
@@ -158985,8 +158985,8 @@
         "name": "DENIS_MCDONOUGH_  ",
         "alias": [],
         "codes": [
-            "[USAGOV 101022-130125] # Dep NatSecAd",
-            "[USAGOV 130125-170120] # then Chief of Staff"
+            "[USAGOV 101022-130125]",
+            "[USAGOV 130125-170120]"
         ],
         "comments": [
             "[USAGOV 101022-130125] # Dep NatSecAd",
@@ -159186,7 +159186,7 @@
         "codes": [
             "[USAELI 170120-180427]",
             "[USAGOV 170213-170220]",
-            "[USAGOV >180427] # National Security Advisor to the VP"
+            "[USAGOV >180427]"
         ],
         "comments": [
             "[USAGOV >180427] # National Security Advisor to the VP"
