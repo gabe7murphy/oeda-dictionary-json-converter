@@ -1,0 +1,155 @@
+[
+{
+        "name": "WILLIAM_ROGERS_  ",
+        "alias": [],
+        "codes": [
+            "[USAELI 310101-571023]",
+            "[USAGOV 690122-730903]",
+            "[USAGOV 571023-610120]",
+            "[USAELI 730903-010101]"
+        ],
+        "comments": []
+    },
+    {
+        "name": "KENNETH_RUSH_  ",
+        "alias": [],
+        "codes": [
+            "[USAELI 19280101-730903]",
+            "[USAGOV 730903-730922]",
+            "[USAELI 730922-940101]"
+        ],
+        "comments": []
+    },
+    {
+        "name": "HENRY_KISSINGER_  ",
+        "alias": [
+            "+HENRY_A._KISSINGER",
+            "+SECRETARY_OF_STATE_HENRY_KISSINGER",
+            "+FORMER_SECRETARY_OF_STATE_HENRY_A._KISSINGER",
+            "+SECRETARY_OF_STATE_HENRY_A._KISSINGER",
+            "+HENRY_A._KISSINGER",
+            "+KISSINGER",
+            "+SECRETARY_KISSINGER"
+        ],
+        "codes": [
+            "[USAELI 410101-690120]",
+            "[USAGOV 730922-770120]",
+            "[USAGOV 690120-751103]"
+        ],
+        "comments": [
+            "[USAGOV 730922-770120] # Secretary of State",
+            "[USAGOV 690120-751103] # National security advisor"
+        ]
+    },
+    {
+        "name": "PHILIP_C._HABIB_  ",
+        "alias": [],
+        "codes": [
+            "[USAELI 380101-770120]",
+            "[USAGOV 770120-770123]",
+            "[USAELI 770123-920101]"
+        ],
+        "comments": []
+    },
+    {
+        "name": "CYRUS_VANCE_  ",
+        "alias": [
+            "+CYRUS_ROBERTS_VANCE",
+            "+SECRETARY_OF_THE_ARMY_CYRUS_R._VANCE",
+            "+CYRUS_R._VANCE",
+            "+SECRETARY_OF_STATE_CYRUS_R._VANCE",
+            "+SECRETARY_CYRUS_VANCE",
+            "+SECRETATY_VANCE"
+        ],
+        "codes": [
+            "[USAELI 350101-770123]",
+            "[USAGOVMIL 19640128-19670630]",
+            "[USAGOVMIL 19620705-19640121]",
+            "[USAGOV 770123-800428]",
+            "[USAELI 800428-020101]"
+        ],
+        "comments": [
+            "[USAGOVMIL 19640128-19670630] # Dep Sec Def",
+            "[USAGOVMIL 19620705-19640121] # Sec of Army",
+            "[USAGOV 770123-800428] # Sec State"
+        ]
+    },
+    {
+        "name": "WARREN_CHRISTOPHER_  ",
+        "alias": [
+            "+SECRETARY_OF_STATE_WARREN_CHRISTOPHER",
+            "+WARREN_M._CHRISTOPHER_",
+            "+DEPUTY_SECRETARY_OF_STATE_WARREN_M._CHRISTOPHER",
+            "+SECRETARY_OF_STATE_WARREN_M._CHRISTOPHER",
+            "+SECRETARY_CHRISTOPHER"
+        ],
+        "codes": [
+            "[USAELI 430101-800428]",
+            "[USAGOV 800428-800502]",
+            "[USAGOV 800504-800508]",
+            "[USAGOV 930120-970107]",
+            "[USAELI 970107-110101]"
+        ],
+        "comments": []
+    },
+    {
+        "name": "DAVID_NEWSOM_  ",
+        "alias": [
+            "+DAVID_D._NEWSOM",
+            "+AMBASSADOR_NEWSOM"
+        ],
+        "codes": [
+            "[USAELI 360101-800502]",
+            "[USAGOV 800502-800504]",
+            "[USAGOV 810118-810122]",
+            "[USAELI 810122-080101]"
+        ],
+        "comments": []
+    },
+    {
+        "name": "EDMUND_S._MUSKIE_  ",
+        "alias": [
+            "+EDMUND_MUSKIE",
+            "+SECRETARY_OF_STATE_EDMUND_MUSKIE",
+            "+SECRETARY_OF_STATE_EDMUND_M._MUSKIE",
+            "+SENATOR_EDMUND_S._MUSKIE"
+        ],
+        "codes": [
+            "[USAGOVLEG 19590103-19800508]",
+            "[USAGOV 800508-810118]",
+            "[USAELI 810118-960101]"
+        ],
+        "comments": []
+    },
+    {
+        "name": "ALEXANDER_HAIG_  ",
+        "alias": [
+            "+ALEXANDER_M._HAIG_JR",
+            "+ALEXANDER_M._HAIG",
+            "+SECRETARY_OF_STATE_ALEXANDER_M._HAIG",
+            "+SECRETARY_OF_STATE_ALEXANDER_M._HAIG_JR."
+        ],
+        "codes": [
+            "[USAELI 420101-730504]",
+            "[USAGOV 810122-820705]",
+            "[USAGOV 730504-740901]",
+            "[USAELI 820705-100101]"
+        ],
+        "comments": []
+    },
+    {
+        "name": "WALTER_J._STOESSEL,_JR._  ",
+        "alias": [
+            "+WALTER_J._STOESSEL_JR.",
+            "+DEPUTY_SECRETARY_OF_STATE_WALTER_J._STOESSEL_JR.",
+            "+WALTER_STOESSEL",
+            "+WALTER_J._STOESSEL",
+            "+AMBASSADOR_WALTER_STOESSEL"
+        ],
+        "codes": [
+            "[USAELI 380101-820705]",
+            "[USAGOV 19760101-19820922]",
+            "[USAGOV 820705-820716]",
+            "[USAELI 820716-860101]"
+        ]
+]
