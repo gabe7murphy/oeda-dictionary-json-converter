@@ -3,114 +3,102 @@ import os
 import json
 
 
-def extract_name_and_code(line):
+def extract_agent(line):
 
-    code_idx = line.index("[")
-
-    name = line[0:code_idx].strip()
-    code = line[code_idx:].strip()
-
-    return name, code
-
-print ('Number of arguments:', len(sys.argv), 'arguments.')
-print ('Argument List:', str(sys.argv))
-
-if len(sys.argv) < 2:
-    print("Error: Provide Input Text File")
-    sys.exit()
-
-print ('Input File:' , str(sys.argv[1]))
-
-inputactorfilename = sys.argv[1]
-
-with open(inputactorfilename) as f:
-     lines = f.readlines()
-
-print (str(len(lines)))
-
-#strip the end of testactor.txt
-outputactorfilename = inputactorfilename.rsplit('.',1)[0] + '.json'
-
-#with open(outputactorfilename, 'w') as f:  #write file and use meld to compare two files
-#   f.writelines(lines) #check  
-
-actorlist = []
+    agentdict = {
+        "name": "",
+        "name_plural": "",
+        "code": "",
+        "comment": ""
+    }
 
 
-actordict = {
-    "name": "NONE",
-    "codes": [],
-    "comments": []
-}    
+    # TEST OBJECT ONLY  - DELETE THIS
+    agentdict = {
+        "name": "CHAMBER_OF_COMMERCE",
+        "name_plural": "CHAMBERS_OF_COMMERCE",
+        "code": "[~BUS]",
+        "comment": "Test comment"
+    }
 
-agentdict = {
-    substitution_sets: [],
-    agents: []
-}
+    # ******** Gabe - extract the agent name, plural (if there is one), code, and comment
+    # from this line and put it in the agentdict
 
-substitution_sets[0] = {
-    label: "!PERSON!",
-    substitutions: [MAN, MEN, WOMAN, WOMEN, PERSON]
-}
-
-substitution_sets[1] = {
-    label: "MINIST",
-    substitutions: [MINISTER, MINISTERS, MINISTRY, MINISTRIES]
-}
+    return agentdict
 
 
 
+def extract_substitutions(line):
+
+    subdict = {
+        "subcode": "",
+        "subslist": []
+    }
+
+    # TEST OBJECT ONLY - DELETE THIS
+    subdict = {
+        "subcode": "PERSON",
+        "subslist": ['MAN', 'MEN', 'WOMAN', 'WOMEN', 'PERSON']
+    }
+   
+    # ******** Gabe - extract the sub-label (e.g. !PERSON!) and the list of substitution words
+    #          and put them in the subdict object
+
+    return subdict
 
 
-for line in lines:
+def main():
 
-    line = line.strip()  #remove leading & trailing spaces
+    print ('Number of arguments:', len(sys.argv), 'arguments.')
+    print ('Argument List:', str(sys.argv))
 
-    if len(line) < 1 or line.startswith("#"):
-        print("Skipping blank or comment")
-        pass  
+    if len(sys.argv) < 2:
+        print("Error: Provide Input Text File")
+        sys.exit()
 
-    else:   
+    print ('Input File:' , str(sys.argv[1]))
 
+    inputactorfilename = sys.argv[1]
 
-        if line.endswith("# CountryInfo.txt"):
-            line = line[:-17]
+    with open(inputactorfilename) as f:
+        lines = f.readlines()
 
-        if "#" in line:
-            code_idx = line.index("#")
-            comment = line[code_idx:].strip() 
+    print (str(len(lines)))
 
-            actordict["comments"].append(line)
-                                      
-        if line.startswith('!'):
-            actordict["codes"].append(line)
+    #strip the end of testactor.txt
+    outputactorfilename = inputactorfilename.rsplit('.',1)[0] + '.json'
+
+    outputdict = {
+        "substitution_sets": [],
+        "agents": []
+    }
+
+    for line in lines:
+
+        line = line.strip()  #remove leading & trailing spaces
+
+        if len(line) < 1 or line.startswith("#"):
+            print("Skipping blank or comment")
+            pass  
+
         else:   
 
-            actor_name = ""
-            codes = []
-
-            if "[" in line:   
-                actor_name, actor_code = extract_name_and_code(line)
-                codes.append(actor_code)
-            else:
-                actor_name = line
-            
-
-            if actordict["name"] != "NONE":
-                actorlist.append(actordict)
-                actordict = actordict = {
-                "name": actor_name,
-                "codes": codes,
-                "comments": []
-                }    
-            else:
-                actordict["name"] = actor_name    
-                actordict["codes"] = codes
-
-actorlist.append(actordict)    
-
-with open(outputactorfilename, 'w', encoding='utf-8') as f:
-    json.dump(actorlist, f, ensure_ascii=False, indent=4)
+            # check for substitution sets
+            if "=" in line:
+                substitution = extract_substitutions(line)
+                outputdict["substitution_sets"].append(substitution)
+                                        
+            # check for name/plural/code/comment
+            else:   
+                if "[" in line:   
+                    agent = extract_agent(line)
+                    outputdict["agents"].append(agent)
+                
+    with open(outputactorfilename, 'w', encoding='utf-8') as f:
+        json.dump(outputdict, f, ensure_ascii=False, indent=4)
 
 
-    
+
+if __name__ == '__main__':
+    main()
+    print("DONE\n")
