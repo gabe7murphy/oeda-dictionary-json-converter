@@ -22,17 +22,26 @@ def extract_agent(line):
         closebrace = line.index("}")
         plural = line[openbrace+1:closebrace].strip()
         agentdict["name_plural"] = plural
+        agentname = line[:openbrace]
+        agentdict["name"] = agentname
+
 
     if "[" and "]" in line:
         openbracket = line.index("[")
         closebracket = line.index("]")
         agentcode = line[openbracket+1:closebracket].strip()
         agentdict["code"] = agentcode
+        agentname = line[:openbracket]
+        agentdict["name"] = agentname
+        
+        
+    if "[" and "]" and "{" in line:
+        openbrace = line.index("{")
+        agentname = line[:openbrace]
+        agentdict["name"] = agentname
 
-    codebracket = line.index("[")
-    agentname = line[:codebracket-1]
-    agentdict["name"] = agentname
 
+   
     
 
     return agentdict
