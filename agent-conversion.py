@@ -12,19 +12,31 @@ def extract_agent(line):
         "comment": ""
     }
 
+    if "#" in line:
+        tag = line.index("#")
+        agentcomment = line[tag+1:].strip()
+        agentdict["comment"] = agentcomment
 
-    # TEST OBJECT ONLY  - DELETE THIS
-    agentdict = {
-        "name": "CHAMBER_OF_COMMERCE",
-        "name_plural": "CHAMBERS_OF_COMMERCE",
-        "code": "[~BUS]",
-        "comment": "Test comment"
-    }
+    if "{" in line:
+        openbrace = line.index("{")
+        closebrace = line.index("}")
+        plural = line[openbrace+1:closebrace].strip()
+        agentdict["name_plural"] = plural
 
-    # ******** Gabe - extract the agent name, plural (if there is one), code, and comment
-    # from this line and put it in the agentdict
+    if "[" and "]" in line:
+        openbracket = line.index("[")
+        closebracket = line.index("]")
+        agentcode = line[openbracket+1:closebracket].strip()
+        agentdict["code"] = agentcode
+
+    codebracket = line.index("[")
+    agentname = line[:codebracket-1]
+    agentdict["name"] = agentname
+
+    
 
     return agentdict
+
 
 
 
@@ -35,16 +47,19 @@ def extract_substitutions(line):
         "subslist": []
     }
 
-    # TEST OBJECT ONLY - DELETE THIS
-    subdict = {
-        "subcode": "PERSON",
-        "subslist": ['MAN', 'MEN', 'WOMAN', 'WOMEN', 'PERSON']
-    }
-   
-    # ******** Gabe - extract the sub-label (e.g. !PERSON!) and the list of substitution words
-    #          and put them in the subdict object
+
+    equals = line.index("=")
+
+    subcode = line[1:equals-2].strip()
+
+    wordslist = line[equals+2:]
+    subslist = wordslist.split(", ")
+
+    subdict["subcode"] = subcode
+    subdict["subslist"] = subslist
 
     return subdict
+
 
 
 def main():
