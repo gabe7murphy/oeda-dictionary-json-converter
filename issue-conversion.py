@@ -40,7 +40,7 @@ issuelist = []
 issuedict = {
     "category": [],
     "names": [],
-    "codes": [],
+    "code": [],
     "exculsion phrases": []
 }    
 
@@ -49,64 +49,41 @@ for line in lines:
 
     line = line.strip()  #remove leading & trailing spaces
 
+    if "</ISSUE>" in line:
+        line = ""
+
     if len(line) < 1 or line.startswith("#"):
         print("Skipping blank or comment")
         pass  
-
-    if "</ISSUE>" in line:
-        line = ""
 
     else:   
 
         if "<" in line:
             opencarrot = line.index("<")
             closecarrot = line.index(">")
-            category = line[opencarrot:closecarrot].strip() 
+            category = line[1-opencarrot:closecarrot-1].strip() 
 
-            issuedict["category"].issue(line)
+            issuedict["category"] = category
         
-         if "~~" in line:
-            code_idx = line.index("~")
-            exclusion = line[code_idx:].strip() 
-
-            issuedict["exclusion phrases"].issue(line)
-
         if "~" in line:
             code_idx = line.index("~")
             exclusion = line[code_idx:].strip() 
 
-            issuedict["exclusion phrases"].issue(line)
+            issuedict["exclusion phrases"] = exclusion
+
+        if "[" in line:   
+                openbracket = line.index("[")
+                closebracket = line.index("]")
+                code = line[openbracket+1:closebracket].strip() 
+
+                issuedict["code"] = code
                                       
-        if line.startswith('!'):
-            issuedict["codes"].append(line)
-        else:   
 
-            actor_name = []
-            codes = []
 
-            if "[" in line:   
-                actor_name, actor_code = extract_name_and_code(line)
-                codes.append(actor_code)
-            else:
-                actor_name = line
-            
+issuelist.append(issuedict)    
 
-            if issuedict["name"] != "NONE":
-                issuelist.append(issuedict)
-                issuedict = issuedict = {
-                "category": category,
-                "name": actor_name,
-                "codes": codes,
-                "exclusion phrases": []
-                }    
-            else:
-                actordict["name"] = actor_name    
-                actordict["codes"] = codes
-
-actorlist.append(actordict)    
-
-with open(outputactorfilename, 'w', encoding='utf-8') as f:
-    json.dump(actorlist, f, ensure_ascii=False, indent=4)
+with open(outputactorfilename, 'w') as f:
+    json.dump(issuelist, f, ensure_ascii=False, indent=4)
 
 
     
