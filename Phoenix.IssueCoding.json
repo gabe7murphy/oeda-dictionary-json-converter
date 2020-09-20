@@ -1,0 +1,9 @@
+[
+    {
+        "category": "ISSUE CATEGORY=\"TERROR\" TYPE=\"ALL", 
+        "code": "NAMED_TERROR_GROUP", 
+        "exclusion phrases": "~free arab radio committee", 
+        "names": [], 
+        "exculsion phrases": []
+    }
+]
