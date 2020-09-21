@@ -5,7 +5,7 @@ import json
 def extract_name_and_code(line): 
 
     name_code_pair = {
-        "name": "NONE",
+        "name": "",
         "code": ""
 }
 
@@ -43,12 +43,10 @@ def main():
     #with open(outputactorfilename, 'w') as f:  #write file and use meld to compare two files
     #   f.writelines(lines) #check  
 
-    issuelist = []
-
     issuedict = {
-        "category": [],
-        "code": [],
-        "names": "NONE"
+        "category": "NONE",
+        "names":  [],
+        "exclusion phrases": []
     }  
 
     for line in lines:
@@ -59,10 +57,12 @@ def main():
             print("Skipping blank or comment")
             pass  
 
+        if "</ISSUE>" in line:
+            line = ""
+
         else:   
-             
-            if "</ISSUE>" in line:
-                line = ""
+
+            new_category = []
 
             if "<" in line:
                 opencarrot = line.index("<")
@@ -71,29 +71,28 @@ def main():
 
                 issuedict["category"] = category
     
-            if "~" in line:
+            elif "~" in line:
                 code_idx = line.index("~")
                 exclusion = line[code_idx:].strip() 
 
                 issuedict["exclusion phrases"] = exclusion
      
-            if "[" in line:   
-                issue = extract_name_and_code(line)
-                issuedict ["name"].append(agent)
-
-            else: 
-
-                if issuedict["names"] != "NONE":
-                    issuelist.append(issuedict)
-                    issuedict = issuedict = {
-                    "category": [],
-                    "code": [],
-                    "names": issue,
-                     "exclusion phrases": []
-
-              }  
+            else:
+                if "[" in line:   
+                    issue_code = extract_name_and_code(line)
+                    issuedict["names"].append(issue_code)   
+                      
+            if issuedict["category"] == "NONE":
+                new_category.append(issuedict)
+                issuedict = issuedict = {
+                "category": new_category,
+                "names":  [],
+                "exclusion phrases": []
+                }    
 
     with open(outputactorfilename, 'w') as f:
-        json.dump(issuelist, f, ensure_ascii=False, indent=4)
+        json.dump(issuedict, f, ensure_ascii=False, indent=4)
 
-    
+if __name__ == '__main__':
+    main()
+    print("DONE\n")    
