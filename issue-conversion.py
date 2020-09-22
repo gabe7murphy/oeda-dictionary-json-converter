@@ -8,15 +8,16 @@ def start_issue(line):
     issuedict = {
         "category": "NONE",
         "type": "",
-        "names":  [],
-        "exclusion_phrases": []
+        "exclusion_phrases": [],
+        "names":  []
+        
     }  
 
     cat_idx = line.index("CATEGORY=") + 9
     type_idx = line.index("TYPE=") + 5
     end_idx = line.index(">")
 
-    cat = line[cat_idx : type_idx].strip()
+    cat = line[cat_idx : type_idx-6].strip()
     itype = line[type_idx : end_idx].strip()
 
     issuedict["category"] = cat
@@ -85,17 +86,8 @@ def main():
         elif "<ISSUE" in line:  # start of a new issue
             issuedict = start_issue(line)
 
-        else:   # building issue
+        else:   
 
-            #new_category = []
-
-            # if "<" in line:
-            #     opencarrot = line.index("<")
-            #     closecarrot = line.index(">")
-            #     category = line[1-opencarrot:closecarrot-1].strip() 
-
-            #     issuedict["category"] = category
-    
             if "~" in line:
                 code_idx = line.index("~")
                 exclusion = line[code_idx:].strip() 
@@ -106,14 +98,6 @@ def main():
                 if "[" in line:   
                     name_code_pair = extract_name_and_code(line)
                     issuedict["names"].append(name_code_pair)   
-                      
-            # if issuedict["category"] == "NONE":
-            #     new_category.append(issuedict)
-            #     issuedict = issuedict = {
-            #     "category": new_category,
-            #     "names":  [],
-            #     "exclusion phrases": []
-            #     }    
 
     with open(outputactorfilename, 'w') as f:
         json.dump(issues, f, ensure_ascii=False, indent=4)
